@@ -1,0 +1,8 @@
+Name,Simulator,Manufacturer,FAA Category,FAA Class,FAA Simulator Type,EASA Category,EASA Class,EASA Simulator Type,TCCA Category,TCCA Class,TCCA Simulator Type,Engine Type,Engine Count,Tail Wheel,Retractable Landing Gear,FAA Complex,FAA High Performance,FAA Type Rating Required,FAA Large,EASA Complex,EASA High Performance,EASA Type Rating Required,TCCA Complex,TCCA High Performance,Military,EFIS,Pressurized,Cost Per Hour
+BE58,FALSE,Beach,Airplane,ASEL,,Aeroplane,MEP Land,,Aeroplane,,,Piston,2,FALSE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,500
+C172,FALSE,Cessna,Airplane,ASEL,,Aeroplane,SEP Land,,Aeroplane,,,Piston,1,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,150
+LJ77,FALSE,Bombardier,Airplane,AMEL,,Aeroplane,,,Aeroplane,ME Land,,Turbine,2,FALSE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,TRUE,
+LJ77 Sim,TRUE,,Airplane,AMEL,FTD,Aeroplane,,FTD,Aeroplane,ME Land,FTD,Turbine,2,FALSE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,
+M20R,FALSE,Mooney,Airplane,ASEL,,Aeroplane,SEP Land,,Aeroplane,,,Piston,1,FALSE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,325
+PA46T,FALSE,Piper,Airplane,ASEL,,Aeroplane,SET,,Aeroplane,,,Turboprop,1,FALSE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,TRUE,0
+SR22,FALSE,Cirrus,Airplane,ASEL,,Aeroplane,SEP Land,,Aeroplane,,,Piston,1,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,325
