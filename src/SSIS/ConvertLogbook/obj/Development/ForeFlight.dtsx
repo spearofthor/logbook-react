@@ -11,8 +11,8 @@
   DTS:LocaleID="1033"
   DTS:ObjectName="ForeFlight"
   DTS:PackageType="5"
-  DTS:VersionBuild="45"
-  DTS:VersionGUID="{0982D9D2-8FD9-4125-91BA-F698DCBD7355}">
+  DTS:VersionBuild="48"
+  DTS:VersionGUID="{3AB2ADEA-C61B-4CA6-957D-1939E570AFE4}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -48,10 +48,10 @@
       </DTS:ObjectData>
     </DTS:ConnectionManager>
     <DTS:ConnectionManager
-      DTS:refId="Package.ConnectionManagers[Foreflight-Aircraft-ExportFile]"
+      DTS:refId="Package.ConnectionManagers[Foreflight-Aircraft-Entries]"
       DTS:CreationName="FLATFILE"
       DTS:DTSID="{25BE6553-7D6E-4FD9-9F8E-235D07704173}"
-      DTS:ObjectName="Foreflight-Aircraft-ExportFile">
+      DTS:ObjectName="Foreflight-Aircraft-Entries">
       <DTS:ObjectData>
         <DTS:ConnectionManager
           DTS:Format="Delimited"
@@ -70,7 +70,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="AircraftID"
-              DTS:DTSID="{5A7F3B63-BC90-4D43-B1EF-3F45B9C46571}"
+              DTS:DTSID="{129A68D4-5352-43C3-8539-F57009E3AE83}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -79,7 +79,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="TypeCode"
-              DTS:DTSID="{9292E67B-5094-4786-905A-4446F6691ED7}"
+              DTS:DTSID="{4A294D60-B07D-48F3-938C-1AE8A63B0501}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -88,7 +88,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Year"
-              DTS:DTSID="{735680D0-F84F-485A-B562-2C559BCFBF47}"
+              DTS:DTSID="{09B94CCF-507E-4319-BEB1-2D0D409ACA06}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -97,7 +97,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Make"
-              DTS:DTSID="{DDC7D83F-1285-4EA9-A8A0-7739D7D685D4}"
+              DTS:DTSID="{EA131FCA-E63E-48CC-822D-23E87F2CA84E}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -106,7 +106,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Model"
-              DTS:DTSID="{046D8BF3-CE57-4921-BE2B-8F5380B9B892}"
+              DTS:DTSID="{BB1BA9BB-7CF8-4F9C-A94E-BD91B103F5D9}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -115,7 +115,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Category"
-              DTS:DTSID="{62394B91-8AC9-4E8B-9C60-A63F90A713EC}"
+              DTS:DTSID="{629D3849-CE17-4A1B-ADCF-0875E9747008}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -124,7 +124,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Class"
-              DTS:DTSID="{6237FB2E-A311-4AA7-8757-E4D210B522A1}"
+              DTS:DTSID="{26618573-7E9E-4723-BAFF-AA0785992176}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -133,7 +133,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="GearType"
-              DTS:DTSID="{158D8A3B-9649-4FB8-9A54-8D8FDA924A80}"
+              DTS:DTSID="{46D059E4-7DD2-4E3E-925C-7383F442AC24}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -142,7 +142,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="EngineType"
-              DTS:DTSID="{31768E15-C2ED-482E-916F-F59B3B6AD582}"
+              DTS:DTSID="{9FDDE397-8AA8-44BE-A890-D41381A98A9C}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -151,7 +151,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Complex"
-              DTS:DTSID="{137948DC-E70C-40E5-8B1A-5F569772255A}"
+              DTS:DTSID="{48CB7F61-BD1B-423D-AF9D-79E39F378757}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -160,7 +160,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="HighPerformance"
-              DTS:DTSID="{6279E3D3-475C-4168-AAA5-E0D146B89306}"
+              DTS:DTSID="{18139561-7314-4C25-AD12-EEDCCB1EF734}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -169,7 +169,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Pressurized"
-              DTS:DTSID="{1928888C-AF22-4E74-B2F3-B8ECF6601F97}"
+              DTS:DTSID="{81D9486C-2AC0-4D6C-99F4-EB30D58CB62D}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -178,7 +178,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Column 12"
-              DTS:DTSID="{B158AB43-7C0F-4E11-84F5-55D3ADF08057}"
+              DTS:DTSID="{C9CF532F-BA49-47DA-90BF-AC02CEE04F78}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -187,7 +187,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Column 13"
-              DTS:DTSID="{EFBAC53D-11A2-4607-BF0D-DBE4CC31E9F3}"
+              DTS:DTSID="{376ED949-D1A6-4DD5-9D49-5E6733C5B7E0}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -196,7 +196,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Column 14"
-              DTS:DTSID="{55ADD978-C74E-4FF3-908F-5AB088CBA322}"
+              DTS:DTSID="{6A0DDD08-A38C-4D49-8009-DC385F406216}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -205,7 +205,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Column 15"
-              DTS:DTSID="{6BBB711E-D3D2-492F-A04B-982BC15D05AA}"
+              DTS:DTSID="{2C483ED3-E944-4C51-B74F-BDA3779F59BB}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -214,7 +214,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Column 16"
-              DTS:DTSID="{8778D40C-4864-4811-90AA-9DE3CE173690}"
+              DTS:DTSID="{28B53C74-5D29-4D74-993C-D8D841BF648E}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -223,7 +223,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Column 17"
-              DTS:DTSID="{57FF79DD-BA09-4AA9-B134-9A04FEE34FA9}"
+              DTS:DTSID="{4CC3FE4F-8558-474C-B714-8E1969C5C1F1}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -232,7 +232,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Column 18"
-              DTS:DTSID="{5BCDE07B-E20F-496B-8A7B-B4E5300A315F}"
+              DTS:DTSID="{3F8C1BDF-D98F-4F7B-894D-A75DB714FFFA}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -241,7 +241,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Column 19"
-              DTS:DTSID="{5E1E9ACF-5C4D-4F48-BBEB-AF031AB6A0A7}"
+              DTS:DTSID="{9A908137-A05B-4D5F-8A4F-CA710F2B1C4C}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -250,7 +250,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Column 20"
-              DTS:DTSID="{6EAA4C87-8F72-4D64-8E63-3E1169737E43}"
+              DTS:DTSID="{52825849-DD8B-454C-B09E-6E9ECB3E9A0E}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -259,7 +259,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Column 21"
-              DTS:DTSID="{643E5966-2330-448D-98CF-17C409DDA3B8}"
+              DTS:DTSID="{100EE5E9-A7B3-4F79-A442-728CAD9E3953}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -268,7 +268,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Column 22"
-              DTS:DTSID="{4D80B193-D3A7-4D27-99EC-1585BACBD37B}"
+              DTS:DTSID="{A70E919F-08A8-43E3-B032-95B7E044E207}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -277,7 +277,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Column 23"
-              DTS:DTSID="{B6A8AD20-7A23-4B38-A812-1CA843242AD2}"
+              DTS:DTSID="{692FB25A-B82B-4A8C-B599-117594A74D21}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -286,7 +286,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Column 24"
-              DTS:DTSID="{ACE391B7-E50B-45D0-972E-2ECF07017E71}"
+              DTS:DTSID="{F3D32F43-2997-47F7-B417-8F9E898207BD}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -295,7 +295,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Column 25"
-              DTS:DTSID="{309EDD17-C207-4FEB-AA26-E8ABC5C090D1}"
+              DTS:DTSID="{B1582815-D4B0-4E20-8A19-556470A93B82}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -304,7 +304,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Column 26"
-              DTS:DTSID="{EDCF9024-4659-4297-A5AF-3134EBC6EACC}"
+              DTS:DTSID="{FE9E121B-D951-4DBC-BEDD-3D54E1047C96}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -313,7 +313,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Column 27"
-              DTS:DTSID="{C9C943B6-B795-4693-9326-269DA3F3709B}"
+              DTS:DTSID="{1419C62B-B649-42FF-907C-E27D93659AD9}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -322,7 +322,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Column 28"
-              DTS:DTSID="{A1A8AF03-897E-4A71-8DD0-48833B0A876F}"
+              DTS:DTSID="{C6FA31AA-A2B7-4072-BB0D-3AD9311450D9}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -331,7 +331,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Column 29"
-              DTS:DTSID="{7F0C83AC-8B4D-49A2-AC82-7DC4FF0B7E37}"
+              DTS:DTSID="{763DA624-FE34-4FBC-9786-1FB6034C751F}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -340,7 +340,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Column 30"
-              DTS:DTSID="{22F2C6F8-8E69-4251-BD82-95C2DBBB33AC}"
+              DTS:DTSID="{29B63EB9-591C-4ECE-9FA7-EA58F7F2B5A5}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -349,7 +349,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Column 31"
-              DTS:DTSID="{DB886D11-49F7-419A-9269-BB7A736CB7F5}"
+              DTS:DTSID="{3E45949A-7EB1-4D84-B091-D7BC9AF91E6F}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -358,7 +358,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Column 32"
-              DTS:DTSID="{7C415D6A-1C6E-40F1-BBC4-AEBE2C845F67}"
+              DTS:DTSID="{D9754250-25DB-4A4C-8DF4-58EEE8FDE71D}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -367,7 +367,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Column 33"
-              DTS:DTSID="{BEE67699-C837-4D84-9F72-6CE526E88815}"
+              DTS:DTSID="{70C19AE4-7A7C-4F82-856A-8FF74D38B08C}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -376,7 +376,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Column 34"
-              DTS:DTSID="{DDA08B78-B404-45D4-8304-17CA42E01AD0}"
+              DTS:DTSID="{D27DFD69-698F-4D67-8421-BFFB035AAEF6}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -385,7 +385,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Column 35"
-              DTS:DTSID="{1084BCE1-E526-4EE7-B883-7D8B2B6F55DC}"
+              DTS:DTSID="{E554C0B0-8291-4C98-8A62-94B0B7749C28}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -394,7 +394,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Column 36"
-              DTS:DTSID="{A63E3A32-1F47-4C06-994C-034BBF897BBB}"
+              DTS:DTSID="{6D842EF7-E63E-421C-B0A4-8D5C8C623C75}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -403,7 +403,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Column 37"
-              DTS:DTSID="{54D1B595-9E2D-4684-98E6-30387BE62844}"
+              DTS:DTSID="{D77187A0-698A-47AB-BF59-8E4BA2FDD94D}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -412,7 +412,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Column 38"
-              DTS:DTSID="{357B8EB0-6525-472E-A230-6AE6895786CD}"
+              DTS:DTSID="{EF94732C-6C42-45E0-8AF9-A933394BEF3A}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -421,7 +421,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Column 39"
-              DTS:DTSID="{50EE152F-CEE2-4175-B1C3-0222FCCCA578}"
+              DTS:DTSID="{E7B6D689-1E5C-4090-B710-67C8F456DC66}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -430,7 +430,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Column 40"
-              DTS:DTSID="{D91EE8FF-7478-4E08-BFBC-DEAC6EDEC92C}"
+              DTS:DTSID="{C4DA612E-C6B7-4092-BC84-119B0CDCAC3B}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -439,7 +439,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Column 41"
-              DTS:DTSID="{7985A58A-0E7A-4EC4-A49F-754273499796}"
+              DTS:DTSID="{89D45810-E670-4BAD-B293-047A70468431}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -448,7 +448,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Column 42"
-              DTS:DTSID="{B9C16799-F455-42D8-B9A5-0F8A12C0D711}"
+              DTS:DTSID="{93FA74D9-FC7E-4A95-8E89-169E9BB42198}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -457,7 +457,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Column 43"
-              DTS:DTSID="{5DF5472B-A1CA-4E4B-B4BD-E995D7737E8D}"
+              DTS:DTSID="{248EC69F-BFDD-4924-BE66-819057C2368C}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -466,7 +466,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Column 44"
-              DTS:DTSID="{6387ECFD-5D59-42BC-BA28-F4C81E3E157C}"
+              DTS:DTSID="{707889FA-662A-4724-99A6-44E113225FF7}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -475,7 +475,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Column 45"
-              DTS:DTSID="{7763A248-5C16-4DF9-A17C-AC2BB59A30A2}"
+              DTS:DTSID="{8C1D9761-9BB6-422A-9E9A-FA4B17D6AC35}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -484,7 +484,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Column 46"
-              DTS:DTSID="{C7FE205F-DF6F-4921-94B6-48309644C26B}"
+              DTS:DTSID="{F0EDF56B-E590-416F-9CE9-9AEF91B3A886}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -493,7 +493,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Column 47"
-              DTS:DTSID="{03E05ACB-DBD1-4C89-AABB-76AC88D0AE0D}"
+              DTS:DTSID="{223C2085-A196-454F-A703-94FF109AA154}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -502,7 +502,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Column 48"
-              DTS:DTSID="{7D6E1D1D-28AC-49AF-B4F2-5A2EBA1F5EFD}"
+              DTS:DTSID="{D6AFF99A-4C54-4BB5-8BA9-B5F74FD7FCE6}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -511,7 +511,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Column 49"
-              DTS:DTSID="{8CEC7E48-7436-4D89-A298-5C9B8D54FC57}"
+              DTS:DTSID="{EDAC5E41-07EC-4466-BF2E-98D2476FDE1D}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -520,7 +520,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Column 50"
-              DTS:DTSID="{6247079A-D376-4FF9-8380-25D27BAE32E2}"
+              DTS:DTSID="{18DD0E23-D5CF-4F83-9BC8-3E769FED86CA}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -529,17 +529,17 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Column 51"
-              DTS:DTSID="{8D8E38CF-E907-4E88-8286-EEC2B7C6CE4F}"
+              DTS:DTSID="{1B3B03E0-F6C5-4714-9BDF-9319742829B9}"
               DTS:CreationName="" />
           </DTS:FlatFileColumns>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
     <DTS:ConnectionManager
-      DTS:refId="Package.ConnectionManagers[Foreflight-Flights-ExporrtFile]"
+      DTS:refId="Package.ConnectionManagers[Foreflight-Log-Entries]"
       DTS:CreationName="FLATFILE"
       DTS:DTSID="{656D8F74-9232-44A4-8A33-C3FE40196F82}"
-      DTS:ObjectName="Foreflight-Flights-ExporrtFile">
+      DTS:ObjectName="Foreflight-Log-Entries">
       <DTS:ObjectData>
         <DTS:ConnectionManager
           DTS:Format="Delimited"
@@ -557,7 +557,7 @@
               DTS:DataType="7"
               DTS:TextQualified="True"
               DTS:ObjectName="Date"
-              DTS:DTSID="{E9E1968D-75F0-4543-BD65-6251DF3089CD}"
+              DTS:DTSID="{4985B631-E366-4E28-B778-C5CCBC9B968E}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -566,7 +566,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="AircraftID"
-              DTS:DTSID="{58DD2190-0B21-4546-8D78-0686B75AB573}"
+              DTS:DTSID="{EE4AA980-AA70-4F64-9D09-751583CB266C}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -575,7 +575,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="From"
-              DTS:DTSID="{1A73F9A7-FB9D-49E8-B655-437A3850BDEC}"
+              DTS:DTSID="{07A9989D-D2CA-413B-A6AF-AC0EB7593149}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -584,7 +584,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="To"
-              DTS:DTSID="{F85C1AC3-E35A-4C68-957C-6D23BDD49189}"
+              DTS:DTSID="{7260C009-1437-48AD-8F7C-313E24627445}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -593,7 +593,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Route"
-              DTS:DTSID="{21291358-F25C-42D0-AEEB-EBC2D676A252}"
+              DTS:DTSID="{41A97877-7195-4EFB-BA3D-262CF26EA2C7}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -602,7 +602,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="TimeOut"
-              DTS:DTSID="{9C0ACBBC-C5C4-4360-950C-0ECAD1FD9418}"
+              DTS:DTSID="{59FE0717-F297-453A-BB65-439406A87F92}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -610,7 +610,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="TimeOff"
-              DTS:DTSID="{97FD3636-3F33-4AE6-9F76-75A4AD899CA4}"
+              DTS:DTSID="{3611FBFF-BFA3-443A-9E22-D61644A82976}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -618,7 +618,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="TimeOn"
-              DTS:DTSID="{553F825E-DCA1-44FD-8DE8-DD8D61BE452B}"
+              DTS:DTSID="{7FBA8A12-6377-4845-8F42-4FDF7FD4EF81}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -626,7 +626,7 @@
               DTS:DataType="7"
               DTS:TextQualified="True"
               DTS:ObjectName="TimeIn"
-              DTS:DTSID="{0427AF06-7A35-465C-B113-9EF62643B7AE}"
+              DTS:DTSID="{60B5CA31-EA83-4ADD-8269-746E9F667380}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -634,7 +634,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="OnDuty"
-              DTS:DTSID="{C70F6AE4-3EC6-4637-B119-662EA9575EE7}"
+              DTS:DTSID="{74724898-E3E7-4105-A128-C2D109565083}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -642,7 +642,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="OffDuty"
-              DTS:DTSID="{120A91DE-283A-4E8C-8FEC-D88432D29EC9}"
+              DTS:DTSID="{33778682-A3D7-4B57-BEF3-61F22869B929}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -650,7 +650,7 @@
               DTS:DataType="4"
               DTS:TextQualified="True"
               DTS:ObjectName="TotalTime"
-              DTS:DTSID="{8000C6B3-0CE8-49EF-841E-F42DC43F2E54}"
+              DTS:DTSID="{9B7A46AE-7657-4E16-806B-D7A1129B67CB}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -658,7 +658,7 @@
               DTS:DataType="4"
               DTS:TextQualified="True"
               DTS:ObjectName="PIC"
-              DTS:DTSID="{29C315E6-E3C3-4A6F-93F6-325C22382B78}"
+              DTS:DTSID="{F91269E7-71D1-4CBC-AD28-E3C1F6E7AC1B}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -666,7 +666,7 @@
               DTS:DataType="4"
               DTS:TextQualified="True"
               DTS:ObjectName="SIC"
-              DTS:DTSID="{02E594A8-2919-4790-A191-167FEE4A80AF}"
+              DTS:DTSID="{BB83BD92-AA9D-4F21-92ED-C85825200485}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -674,7 +674,7 @@
               DTS:DataType="4"
               DTS:TextQualified="True"
               DTS:ObjectName="Night"
-              DTS:DTSID="{ACC87790-4335-4E4C-A490-66B33BEB81B3}"
+              DTS:DTSID="{A0C5BA72-CF90-42AD-85A0-468D56B0DE86}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -682,7 +682,7 @@
               DTS:DataType="4"
               DTS:TextQualified="True"
               DTS:ObjectName="Solo"
-              DTS:DTSID="{1A3E641E-E764-4FC5-AF7A-6E004C11388C}"
+              DTS:DTSID="{4E2ED472-A240-403C-9E52-B4C5AFC64A44}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -690,7 +690,7 @@
               DTS:DataType="4"
               DTS:TextQualified="True"
               DTS:ObjectName="CrossCountry"
-              DTS:DTSID="{4AEEBC17-F672-4635-B6AF-43CDFF05EF71}"
+              DTS:DTSID="{5BF007B3-753C-4254-B6B8-4C7DBDDF7653}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -698,7 +698,7 @@
               DTS:DataType="4"
               DTS:TextQualified="True"
               DTS:ObjectName="Distance"
-              DTS:DTSID="{61B6D8A6-7AB5-4373-8C65-E7EEDAC1A599}"
+              DTS:DTSID="{D8436974-EA77-4277-ABF4-9E9DDFF537C7}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -706,7 +706,7 @@
               DTS:DataType="4"
               DTS:TextQualified="True"
               DTS:ObjectName="DayTakeoffs"
-              DTS:DTSID="{4636A0A8-EF6D-4898-B014-4630247A48ED}"
+              DTS:DTSID="{6FDE9E03-DD22-4ACB-8425-122EE5D6FA2C}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -714,7 +714,7 @@
               DTS:DataType="16"
               DTS:TextQualified="True"
               DTS:ObjectName="DayLandingsFullStop"
-              DTS:DTSID="{29660AD0-DC0D-459B-A904-B75200D50280}"
+              DTS:DTSID="{09BD49B2-0F80-4275-87D2-BD411CDCD72E}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -722,7 +722,7 @@
               DTS:DataType="16"
               DTS:TextQualified="True"
               DTS:ObjectName="NightTakeoffs"
-              DTS:DTSID="{EFAE7BC7-5D21-4C23-B944-4E117F432C10}"
+              DTS:DTSID="{F36526FB-E28F-474C-AA6A-6A13D67B6024}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -730,7 +730,7 @@
               DTS:DataType="16"
               DTS:TextQualified="True"
               DTS:ObjectName="NightLandingsFullStop"
-              DTS:DTSID="{CA39F85E-8FED-4BBC-A74E-068348176E20}"
+              DTS:DTSID="{31EDF41A-C7A7-4FB0-AC18-0CD6B711FB9C}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -738,7 +738,7 @@
               DTS:DataType="16"
               DTS:TextQualified="True"
               DTS:ObjectName="AllLandings"
-              DTS:DTSID="{24DE1F25-A93C-4E0A-A0B0-E4558DE93135}"
+              DTS:DTSID="{68BA982B-0566-4441-AA10-84414E8EFD35}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -746,7 +746,7 @@
               DTS:DataType="4"
               DTS:TextQualified="True"
               DTS:ObjectName="ActualInstrument"
-              DTS:DTSID="{3A715996-9964-464E-8F9C-81814F763399}"
+              DTS:DTSID="{271EB686-5CCC-41B3-8137-D7956BC2DAFD}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -754,7 +754,7 @@
               DTS:DataType="4"
               DTS:TextQualified="True"
               DTS:ObjectName="SimulatedInstrument"
-              DTS:DTSID="{2641EAB3-7254-4D6B-871A-E79168D692EC}"
+              DTS:DTSID="{172E18B3-4C39-4FCA-9AEE-3C9D16667DFC}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -762,7 +762,7 @@
               DTS:DataType="4"
               DTS:TextQualified="True"
               DTS:ObjectName="HobbsStart"
-              DTS:DTSID="{983B9418-4DBD-4B97-B552-8B68C391B3E8}"
+              DTS:DTSID="{84F66CD3-2444-46D0-9B43-4CAFDC4EB023}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -770,7 +770,7 @@
               DTS:DataType="4"
               DTS:TextQualified="True"
               DTS:ObjectName="HobbsEnd"
-              DTS:DTSID="{BB6541A6-C895-413E-B347-93E440427188}"
+              DTS:DTSID="{F432D509-8E9F-40CE-8B07-88751A64874A}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -778,7 +778,7 @@
               DTS:DataType="4"
               DTS:TextQualified="True"
               DTS:ObjectName="TachStart"
-              DTS:DTSID="{AB6BD387-5517-44B5-9768-D3B2023AA84D}"
+              DTS:DTSID="{821F5BD0-1802-45C2-84F1-447CDD54CA73}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -786,7 +786,7 @@
               DTS:DataType="4"
               DTS:TextQualified="True"
               DTS:ObjectName="TachEnd"
-              DTS:DTSID="{48F72478-E386-49BB-B234-769ECFDFA0A1}"
+              DTS:DTSID="{4BBCC595-7B6B-4A02-B5D0-0C7564051548}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -794,7 +794,7 @@
               DTS:DataType="4"
               DTS:TextQualified="True"
               DTS:ObjectName="Holds"
-              DTS:DTSID="{2292641F-C4E8-4FE5-AC3E-CAA58F2F41E7}"
+              DTS:DTSID="{EDD6C072-6AE2-480E-92A0-13B75BF37349}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -803,7 +803,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Approach1"
-              DTS:DTSID="{A0265427-831C-4685-8155-A7FFD3E46EF5}"
+              DTS:DTSID="{ACA4BAC4-2871-4A22-94AB-8B41C4FC6AF6}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -812,7 +812,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Approach2"
-              DTS:DTSID="{435103BA-B5B9-4B40-8EB5-D5F1ED5B2A09}"
+              DTS:DTSID="{C8CB77C8-E57C-44B2-8BC7-00C61FE571DD}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -821,7 +821,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Approach3"
-              DTS:DTSID="{13407B0B-BF86-49BD-B511-878D970D95E0}"
+              DTS:DTSID="{BC81949B-0968-41F1-B424-FD8F73B0456A}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -830,7 +830,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Approach4"
-              DTS:DTSID="{E92A8AD5-385B-45A4-A26B-97DEC8F37C16}"
+              DTS:DTSID="{45FBF37C-CD35-4323-9845-7F2CBCE17BF2}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -839,7 +839,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Approach5"
-              DTS:DTSID="{AA561C12-D528-467E-976E-861030B5417F}"
+              DTS:DTSID="{A612BCEF-FCE9-4969-8B93-46058B0CE782}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -847,7 +847,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Approach6"
-              DTS:DTSID="{3211D65C-4515-4FA3-A6ED-97CE6378E675}"
+              DTS:DTSID="{77AA0CE5-B010-4C66-8081-72F48A0B8006}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -855,7 +855,7 @@
               DTS:DataType="4"
               DTS:TextQualified="True"
               DTS:ObjectName="DualGiven"
-              DTS:DTSID="{1F6F9E87-BF83-4397-B06E-A69B46F6B74E}"
+              DTS:DTSID="{E48A3309-3708-4A97-A080-D9DDABE6B56B}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -863,7 +863,7 @@
               DTS:DataType="4"
               DTS:TextQualified="True"
               DTS:ObjectName="DualReceived"
-              DTS:DTSID="{63011A1B-9005-4A02-B090-009B8C3F15F8}"
+              DTS:DTSID="{F67D0989-3B2B-42C8-BE1B-371C52E75C94}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -871,7 +871,7 @@
               DTS:DataType="4"
               DTS:TextQualified="True"
               DTS:ObjectName="SimulatedFlight"
-              DTS:DTSID="{ED22A9E2-3574-4BB0-8B3A-35C989612016}"
+              DTS:DTSID="{4802A184-A9BA-401B-9434-20A55976C2CC}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -879,7 +879,7 @@
               DTS:DataType="4"
               DTS:TextQualified="True"
               DTS:ObjectName="GroundTraining"
-              DTS:DTSID="{A9CCEBB4-6D90-4860-AD61-BCB22BC57088}"
+              DTS:DTSID="{4E235566-29A0-4C5A-96BF-999943B10DAE}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -888,7 +888,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="InstructorName"
-              DTS:DTSID="{27115AA4-152E-4B8C-8EF0-46656A0D9895}"
+              DTS:DTSID="{157BD632-A09E-457E-A4B8-C059400ADCFF}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -897,7 +897,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="InstructorComments"
-              DTS:DTSID="{F3741D67-8FFF-43F0-934B-E4915FDF5B9F}"
+              DTS:DTSID="{962AC043-6019-4088-8D18-D4D8F87FAD9E}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -906,7 +906,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Person1"
-              DTS:DTSID="{04814A57-D849-45E7-9895-4326E3703745}"
+              DTS:DTSID="{93A64FDF-E207-4D41-883C-75B006BA688F}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -915,7 +915,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Person2"
-              DTS:DTSID="{685D5798-4AC3-4806-B292-23B646ED2AEA}"
+              DTS:DTSID="{58D4140E-37BA-4A7E-B49C-B782F44917A6}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -924,7 +924,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Person3"
-              DTS:DTSID="{AFEA4836-577E-4B1B-BCA3-57502A2067D8}"
+              DTS:DTSID="{4C425FFA-3116-4762-82BD-B5BC165D9951}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -933,7 +933,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Person4"
-              DTS:DTSID="{085B332E-AFC5-4CF5-A20B-9653C2C6D249}"
+              DTS:DTSID="{5108268F-D28E-43A2-9DCC-AFF0D0AAFB7A}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -942,7 +942,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Person5"
-              DTS:DTSID="{5B7F5704-1719-469B-9300-BEB455FD90CF}"
+              DTS:DTSID="{9337B5EC-9A15-468F-8108-DB557B5EB384}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -951,7 +951,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Person6"
-              DTS:DTSID="{ECEFD090-E516-40D1-9A35-E721114F2E80}"
+              DTS:DTSID="{5233C5A1-F104-45E9-B26F-CCF501711094}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -960,7 +960,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="FlightReview"
-              DTS:DTSID="{4F048C50-AB9B-41D3-9A7A-FFA2F62116A0}"
+              DTS:DTSID="{52242D79-873C-432B-9BAF-C15F7CF0F5E6}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -969,7 +969,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Checkride"
-              DTS:DTSID="{F2BFED2C-3646-4DCA-ADF4-6FBA2BB64343}"
+              DTS:DTSID="{644EE897-C468-498D-A86C-16593476DE11}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -978,7 +978,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="IPC"
-              DTS:DTSID="{0F21B71D-7870-4BF2-BA95-CA50840D0853}"
+              DTS:DTSID="{24EA7819-FC78-4852-A423-D87767C9D596}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -987,17 +987,17 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="PilotComments"
-              DTS:DTSID="{6F7800DC-E72F-452D-B9C5-C670C7C21225}"
+              DTS:DTSID="{58982C81-0D36-4E9B-A22E-BBA7C37FB63F}"
               DTS:CreationName="" />
           </DTS:FlatFileColumns>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
     <DTS:ConnectionManager
-      DTS:refId="Package.ConnectionManagers[Garmin-Flights-ImportFile]"
+      DTS:refId="Package.ConnectionManagers[Garmin-Log-Entries]"
       DTS:CreationName="FLATFILE"
       DTS:DTSID="{FAA56D9A-49D1-48CF-B3EC-86CB1A1C1B09}"
-      DTS:ObjectName="Garmin-Flights-ImportFile">
+      DTS:ObjectName="Garmin-Log-Entries">
       <DTS:ObjectData>
         <DTS:ConnectionManager
           DTS:Format="Delimited"
@@ -1007,7 +1007,7 @@
           DTS:RowDelimiter=""
           DTS:TextQualifier="_x003C_none_x003E_"
           DTS:CodePage="1252"
-          DTS:ConnectionString="C:\Users\storgerson\Documents\GitHub\logbook-react\data\garmin-templates\Log_Entries_Exported.csv">
+          DTS:ConnectionString="C:\Users\storgerson\Documents\GitHub\logbook-react\data\Garmin-Log-Entries.csv">
           <DTS:FlatFileColumns>
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1015,7 +1015,7 @@
               DTS:DataType="7"
               DTS:TextQualified="True"
               DTS:ObjectName="Date"
-              DTS:DTSID="{74CB1F59-3C98-448F-84AA-F2FA17B40AF6}"
+              DTS:DTSID="{1BB07842-758C-4AB5-8B78-6F4FDED03C91}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1024,7 +1024,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Aircraft ID"
-              DTS:DTSID="{B4923B6F-7AE1-45C0-B8A6-C64037AAC6F8}"
+              DTS:DTSID="{DFD860E1-DB9E-48E7-AD0E-7F166F15B8B1}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1033,7 +1033,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Aircraft Type"
-              DTS:DTSID="{7DDADA7D-178A-434F-8C95-7CE01283C818}"
+              DTS:DTSID="{0177FC9A-03DC-45BE-B882-40724042A9E5}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1042,7 +1042,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Aircraft Operator"
-              DTS:DTSID="{0EABF346-8785-44C1-B34F-C59B5054FC94}"
+              DTS:DTSID="{AADAA7C4-1ADA-4630-BD68-E4078591D105}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1051,7 +1051,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="PIC Name"
-              DTS:DTSID="{3BE75767-1D12-432C-B136-6C08AF9ACE93}"
+              DTS:DTSID="{727E96BC-F74A-4727-9169-65E584DEF8A9}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1060,7 +1060,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Student Name"
-              DTS:DTSID="{D5E38F82-067C-4B75-86D5-154DE88B0A68}"
+              DTS:DTSID="{60A579BF-54E5-4090-8F4E-E79482D6BACE}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1069,7 +1069,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Multi-Pilot"
-              DTS:DTSID="{67182198-930F-4A12-9C3B-433BD965331D}"
+              DTS:DTSID="{19C018DC-19C0-44C8-B311-6310C59F7F44}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1078,7 +1078,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="ETD"
-              DTS:DTSID="{0BF57B16-B8E6-4740-993A-DDE5F9F867E8}"
+              DTS:DTSID="{0D7A8662-0D2F-4438-8CB7-ADAE8F04E76B}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1086,7 +1086,7 @@
               DTS:DataType="7"
               DTS:TextQualified="True"
               DTS:ObjectName="Time Out"
-              DTS:DTSID="{026E2340-AEB2-4B5D-BE35-B7C06B35FABA}"
+              DTS:DTSID="{0087E87E-7AE1-4684-87C8-CBDE8605D8F8}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1095,7 +1095,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Time Off"
-              DTS:DTSID="{FE65EFE1-97EB-4CAD-A9D9-E95F5F58DFB4}"
+              DTS:DTSID="{552FF92E-7E26-4496-A2F1-BC273493E3D6}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1104,7 +1104,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Time On"
-              DTS:DTSID="{591E09DC-4AC2-4170-8087-5B5BD90F7B76}"
+              DTS:DTSID="{ED0BCD2B-BDFF-4193-8A60-055386836720}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1112,7 +1112,7 @@
               DTS:DataType="4"
               DTS:TextQualified="True"
               DTS:ObjectName="Time In"
-              DTS:DTSID="{0FF19277-32CB-4154-925E-696D6759E4BF}"
+              DTS:DTSID="{D31CAA68-A77C-4AFC-B406-724535B3FC9A}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1120,7 +1120,7 @@
               DTS:DataType="4"
               DTS:TextQualified="True"
               DTS:ObjectName="Hobbs Out"
-              DTS:DTSID="{3A5EA88C-E66C-49AC-BC4B-2EC77BFC4655}"
+              DTS:DTSID="{D1E789F9-4ABE-424D-A320-07B8EC97EC5F}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1128,7 +1128,7 @@
               DTS:DataType="4"
               DTS:TextQualified="True"
               DTS:ObjectName="Hobbs In"
-              DTS:DTSID="{48FDC22F-927D-42F7-9496-BF670F464D55}"
+              DTS:DTSID="{4282CC7C-B33F-44F6-AF40-2558E34C955D}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1136,7 +1136,7 @@
               DTS:DataType="4"
               DTS:TextQualified="True"
               DTS:ObjectName="Tach Out"
-              DTS:DTSID="{5D527A41-749D-4744-83D7-BD6C22D6D22B}"
+              DTS:DTSID="{4A826CA4-3AD7-44AD-A097-37459ED0636A}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1144,7 +1144,7 @@
               DTS:DataType="4"
               DTS:TextQualified="True"
               DTS:ObjectName="Tach In"
-              DTS:DTSID="{767E7871-F87E-4092-8DAE-B16C09226BC6}"
+              DTS:DTSID="{5F3001E3-0EDA-4840-87E8-DD9D5388D997}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1152,7 +1152,7 @@
               DTS:DataType="4"
               DTS:TextQualified="True"
               DTS:ObjectName="ETE"
-              DTS:DTSID="{3E3C8896-38DC-4053-94D1-C8E8F2FC2A83}"
+              DTS:DTSID="{8A0AAEDF-68EE-40FC-B632-C8466EF6673D}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1160,7 +1160,7 @@
               DTS:DataType="4"
               DTS:TextQualified="True"
               DTS:ObjectName="Total Duration"
-              DTS:DTSID="{66086242-AE80-4D15-BA7D-74027BF565D3}"
+              DTS:DTSID="{23D41FAF-49D2-4D1A-9B74-D3F22869313D}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1168,7 +1168,7 @@
               DTS:DataType="4"
               DTS:TextQualified="True"
               DTS:ObjectName="Flight Duration"
-              DTS:DTSID="{05055904-6D43-49E7-A7DE-E72F066D62FB}"
+              DTS:DTSID="{667A05CC-A650-472C-A0D9-1E11032F8794}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1176,7 +1176,7 @@
               DTS:DataType="16"
               DTS:TextQualified="True"
               DTS:ObjectName="Night Duration"
-              DTS:DTSID="{8BA40246-A8AE-4722-B273-FBC04A587C82}"
+              DTS:DTSID="{F1C2CD90-E841-4215-BAE8-55ADB5776BA9}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1184,7 +1184,7 @@
               DTS:DataType="16"
               DTS:TextQualified="True"
               DTS:ObjectName="PIC Duration"
-              DTS:DTSID="{820F8258-EE5D-4BD3-8DA6-4CE2AB36078A}"
+              DTS:DTSID="{A8893EE8-AA9E-4177-B61E-C7C72CA7F9D1}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1192,7 +1192,7 @@
               DTS:DataType="16"
               DTS:TextQualified="True"
               DTS:ObjectName="SIC Duration"
-              DTS:DTSID="{952D6002-608F-4C7C-8080-3104406850D1}"
+              DTS:DTSID="{08EDEC4E-E6EE-4CB3-B550-45C663629544}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1200,7 +1200,7 @@
               DTS:DataType="16"
               DTS:TextQualified="True"
               DTS:ObjectName="Solo Duration"
-              DTS:DTSID="{FEA9A9EC-B562-48E0-A858-B84178AD1C9A}"
+              DTS:DTSID="{A2C567AC-8AB6-4B0B-81C8-7622B6C407A1}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1208,7 +1208,7 @@
               DTS:DataType="4"
               DTS:TextQualified="True"
               DTS:ObjectName="Cross Country Duration"
-              DTS:DTSID="{50E97B9C-329D-486A-9B82-DD1BDF245DFD}"
+              DTS:DTSID="{6FF52879-D7C6-4CB5-95F6-BC387B8B5DED}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1216,7 +1216,7 @@
               DTS:DataType="4"
               DTS:TextQualified="True"
               DTS:ObjectName="Actual Instrument Duration"
-              DTS:DTSID="{7BA6D36F-5CF9-411D-BD67-306E636F6375}"
+              DTS:DTSID="{26F5FC9B-D179-4CB2-A428-FDF01656C92E}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1224,7 +1224,7 @@
               DTS:DataType="4"
               DTS:TextQualified="True"
               DTS:ObjectName="Simulated Instrument Duration"
-              DTS:DTSID="{88C3D685-3B63-46B3-885E-53C95C0CD972}"
+              DTS:DTSID="{42E7748D-640B-431D-AA95-8F8DBD7A5188}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1232,7 +1232,7 @@
               DTS:DataType="4"
               DTS:TextQualified="True"
               DTS:ObjectName="Simulator Duration"
-              DTS:DTSID="{38527B7C-26FB-4A83-B87A-EF9F6A36F423}"
+              DTS:DTSID="{A04B52E6-D616-4CC6-9C75-9E56B17B32A2}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1240,7 +1240,7 @@
               DTS:DataType="4"
               DTS:TextQualified="True"
               DTS:ObjectName="Dual Received Duration"
-              DTS:DTSID="{8CACB004-6079-4C5F-8853-A7F10E14BEA9}"
+              DTS:DTSID="{6ACD02DC-11B5-4C40-A1BD-BF463F55E4A1}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1248,7 +1248,7 @@
               DTS:DataType="4"
               DTS:TextQualified="True"
               DTS:ObjectName="Dual Given Duration"
-              DTS:DTSID="{551C8AB8-7BC4-4313-B2EC-90DF615933D2}"
+              DTS:DTSID="{03673687-25F4-4F49-9515-DF08241F69BB}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1256,7 +1256,7 @@
               DTS:DataType="4"
               DTS:TextQualified="True"
               DTS:ObjectName="Evaluator Duration"
-              DTS:DTSID="{51384618-4C48-4FB3-A6AA-56A78E4146A9}"
+              DTS:DTSID="{F031E039-B8F0-4C89-A25D-9A96DCD0CB1B}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1265,7 +1265,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Ground Instruction Duration"
-              DTS:DTSID="{1C61EB82-4925-41B7-9A5C-EFF76A10F202}"
+              DTS:DTSID="{10F5494B-8181-43FA-90D2-D17F8FC4D930}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1274,7 +1274,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Departure"
-              DTS:DTSID="{8200D6A2-73C4-45C2-AD97-2B2A7905B0FF}"
+              DTS:DTSID="{C5A60C07-3805-443C-BEB7-F6FB36757C35}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1283,7 +1283,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Destination"
-              DTS:DTSID="{B8915855-3D2B-4213-9A1B-D394E51520DD}"
+              DTS:DTSID="{B4FD43BF-8E88-4E35-A1DE-DDEB493B10DE}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1292,7 +1292,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Route"
-              DTS:DTSID="{4D89BEAB-3064-4FA1-8D06-B2D81248D7DD}"
+              DTS:DTSID="{63A0DCB1-7DF6-4319-BFD6-EF725A9C23D8}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1301,7 +1301,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Legs"
-              DTS:DTSID="{740D2628-CC14-4B03-BEB1-0CD065BA790D}"
+              DTS:DTSID="{9E5F77A9-D6D2-4A21-965B-9C02A64EFDDF}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1310,7 +1310,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Day Takeoffs"
-              DTS:DTSID="{C4637238-4A84-4430-9920-2D3D44EF2447}"
+              DTS:DTSID="{DCC7AADD-44ED-484B-A018-6CE4AB289299}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1318,7 +1318,7 @@
               DTS:DataType="4"
               DTS:TextQualified="True"
               DTS:ObjectName="Night Takeoffs"
-              DTS:DTSID="{06DBE6E4-F150-4692-83A4-C4CA36DDA0AE}"
+              DTS:DTSID="{0987C1AE-97BD-4EBC-BD5E-39844E33964D}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1326,7 +1326,7 @@
               DTS:DataType="4"
               DTS:TextQualified="True"
               DTS:ObjectName="Day Landings"
-              DTS:DTSID="{46BA0CE2-256B-4CA4-BF05-A7A51F6A7BF4}"
+              DTS:DTSID="{E75E5180-7080-4495-B0C2-CF3791375C3F}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1334,7 +1334,7 @@
               DTS:DataType="4"
               DTS:TextQualified="True"
               DTS:ObjectName="Night Landings"
-              DTS:DTSID="{AA3BA7FA-FCB0-4D9C-ADAE-72599ED24A7F}"
+              DTS:DTSID="{C9487871-06A7-45A7-9A1A-284DE26874B1}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1342,7 +1342,7 @@
               DTS:DataType="4"
               DTS:TextQualified="True"
               DTS:ObjectName="Approaches"
-              DTS:DTSID="{6CBC508A-8F90-486F-9E91-068618EA0EC6}"
+              DTS:DTSID="{5A53E964-DA94-4827-9665-C385B16D77FE}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1351,7 +1351,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Holding Patterns"
-              DTS:DTSID="{1148E243-8963-4E46-B0FE-EFD82BF7AE11}"
+              DTS:DTSID="{1D98ADA3-0FB3-4911-AE82-23117029711E}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1360,7 +1360,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Track Nav Aid"
-              DTS:DTSID="{6FC91616-4329-40E3-A062-FE4A32BD1D28}"
+              DTS:DTSID="{309E8B1F-78AD-4C64-BA63-7660D62CC02F}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1369,7 +1369,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Expenses"
-              DTS:DTSID="{E343713B-ED5E-4147-929C-6074DF7E43FA}"
+              DTS:DTSID="{BA3640E3-8950-4243-8B08-5F430B902039}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1378,7 +1378,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Fuel"
-              DTS:DTSID="{EA6E29F8-8EA6-434C-A75F-FF5231E780CD}"
+              DTS:DTSID="{F4BD5DBF-82B5-4BE4-B895-4FAE8929FF0C}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1387,7 +1387,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Planned Fuel"
-              DTS:DTSID="{44FCEAF7-977A-4671-9B0C-DEABC4423A66}"
+              DTS:DTSID="{FDC95A84-16EE-4AC7-A1E3-28B471D1A57A}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1396,7 +1396,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Fuel Remaining"
-              DTS:DTSID="{FBE3FD64-D1D6-476A-B4B2-7E9F36668862}"
+              DTS:DTSID="{74E75677-EA3C-4A5B-B2A1-D41F430F54BA}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1405,7 +1405,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Fuel In"
-              DTS:DTSID="{8BE2C4B8-54C7-4490-BD76-553F6BF0BA8F}"
+              DTS:DTSID="{A9F4F891-F022-422E-AB67-2FA806AD02FE}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1414,7 +1414,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Fuel Out"
-              DTS:DTSID="{44682A4F-7A07-482A-BF59-4C18B7EDB507}"
+              DTS:DTSID="{1C7842D4-8014-40C1-A9C9-76A00D1147BF}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1423,7 +1423,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Fuel Added"
-              DTS:DTSID="{D898D551-5FCD-4886-806E-107DB35F38B1}"
+              DTS:DTSID="{59248323-CEA4-4A7D-888A-DA7E9645242E}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1432,7 +1432,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Oil Level"
-              DTS:DTSID="{F72FF736-9967-4F66-81A9-9A4C60F0EC30}"
+              DTS:DTSID="{34F9FD5E-0497-4833-986E-FD2FDFB9D4F2}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1441,7 +1441,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Oil Added"
-              DTS:DTSID="{B703A4A5-4DA0-4523-9341-512567F89D34}"
+              DTS:DTSID="{1435C283-8CCF-4733-92E0-A4E196B523A5}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1450,7 +1450,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Remarks"
-              DTS:DTSID="{B3B161FE-F6C7-4530-ADDB-43D18A0F5C1D}"
+              DTS:DTSID="{4721F6C7-D975-4907-BB8A-9384BF0AA6E9}"
               DTS:CreationName="" />
           </DTS:FlatFileColumns>
         </DTS:ConnectionManager>
@@ -1495,8 +1495,8 @@
               <connections>
                 <connection
                   refId="Package\AircraftEntries\Flat File Source.Connections[FlatFileConnection]"
-                  connectionManagerID="Package.ConnectionManagers[Foreflight-Aircraft-ExportFile]"
-                  connectionManagerRefId="Package.ConnectionManagers[Foreflight-Aircraft-ExportFile]"
+                  connectionManagerID="Package.ConnectionManagers[Foreflight-Aircraft-Entries]"
+                  connectionManagerRefId="Package.ConnectionManagers[Foreflight-Aircraft-Entries]"
                   name="FlatFileConnection" />
               </connections>
               <outputs>
@@ -3425,443 +3425,6 @@
               </outputs>
             </component>
             <component
-              refId="Package\PilotLogbookEntries\Flat File Destination"
-              componentClassID="Microsoft.FlatFileDestination"
-              contactInfo="Flat File Destination;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;0"
-              description="Flat File Destination"
-              localeId="1033"
-              name="Flat File Destination">
-              <properties>
-                <property
-                  dataType="System.Boolean"
-                  description="Specifies whether the data will overwrite or append to the destination file."
-                  name="Overwrite">true</property>
-                <property
-                  dataType="System.Null"
-                  description="Specifies the text to write to the destination file before any data is written."
-                  expressionType="Notify"
-                  name="Header" />
-              </properties>
-              <connections>
-                <connection
-                  refId="Package\PilotLogbookEntries\Flat File Destination.Connections[FlatFileConnection]"
-                  connectionManagerID="Package.ConnectionManagers[Garmin-Flights-ImportFile]"
-                  connectionManagerRefId="Package.ConnectionManagers[Garmin-Flights-ImportFile]"
-                  name="FlatFileConnection" />
-              </connections>
-              <inputs>
-                <input
-                  refId="Package\PilotLogbookEntries\Flat File Destination.Inputs[Flat File Destination Input]"
-                  hasSideEffects="true"
-                  name="Flat File Destination Input">
-                  <inputColumns>
-                    <inputColumn
-                      refId="Package\PilotLogbookEntries\Flat File Destination.Inputs[Flat File Destination Input].Columns[Date]"
-                      cachedDataType="date"
-                      cachedName="Date"
-                      externalMetadataColumnId="Package\PilotLogbookEntries\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[Date]"
-                      lineageId="Package\PilotLogbookEntries\Flat File Source.Outputs[Flat File Source Output].Columns[Date]" />
-                    <inputColumn
-                      refId="Package\PilotLogbookEntries\Flat File Destination.Inputs[Flat File Destination Input].Columns[Route]"
-                      cachedCodepage="1252"
-                      cachedDataType="str"
-                      cachedLength="29"
-                      cachedName="Route"
-                      externalMetadataColumnId="Package\PilotLogbookEntries\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[Route]"
-                      lineageId="Package\PilotLogbookEntries\Flat File Source.Outputs[Flat File Source Output].Columns[Route]" />
-                    <inputColumn
-                      refId="Package\PilotLogbookEntries\Flat File Destination.Inputs[Flat File Destination Input].Columns[AircraftID]"
-                      cachedCodepage="1252"
-                      cachedDataType="str"
-                      cachedLength="7"
-                      cachedName="AircraftID"
-                      externalMetadataColumnId="Package\PilotLogbookEntries\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[Aircraft ID]"
-                      lineageId="Package\PilotLogbookEntries\Flat File Source.Outputs[Flat File Source Output].Columns[AircraftID]" />
-                    <inputColumn
-                      refId="Package\PilotLogbookEntries\Flat File Destination.Inputs[Flat File Destination Input].Columns[TachStart]"
-                      cachedDataType="r4"
-                      cachedName="TachStart"
-                      externalMetadataColumnId="Package\PilotLogbookEntries\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[Tach Out]"
-                      lineageId="Package\PilotLogbookEntries\Flat File Source.Outputs[Flat File Source Output].Columns[TachStart]" />
-                    <inputColumn
-                      refId="Package\PilotLogbookEntries\Flat File Destination.Inputs[Flat File Destination Input].Columns[TachEnd]"
-                      cachedDataType="r4"
-                      cachedName="TachEnd"
-                      externalMetadataColumnId="Package\PilotLogbookEntries\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[Tach In]"
-                      lineageId="Package\PilotLogbookEntries\Flat File Source.Outputs[Flat File Source Output].Columns[TachEnd]" />
-                    <inputColumn
-                      refId="Package\PilotLogbookEntries\Flat File Destination.Inputs[Flat File Destination Input].Columns[TotalTime]"
-                      cachedDataType="r4"
-                      cachedName="TotalTime"
-                      externalMetadataColumnId="Package\PilotLogbookEntries\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[Total Duration]"
-                      lineageId="Package\PilotLogbookEntries\Flat File Source.Outputs[Flat File Source Output].Columns[TotalTime]" />
-                    <inputColumn
-                      refId="Package\PilotLogbookEntries\Flat File Destination.Inputs[Flat File Destination Input].Columns[PIC]"
-                      cachedDataType="r4"
-                      cachedName="PIC"
-                      externalMetadataColumnId="Package\PilotLogbookEntries\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[PIC Duration]"
-                      lineageId="Package\PilotLogbookEntries\Flat File Source.Outputs[Flat File Source Output].Columns[PIC]" />
-                    <inputColumn
-                      refId="Package\PilotLogbookEntries\Flat File Destination.Inputs[Flat File Destination Input].Columns[Solo]"
-                      cachedDataType="r4"
-                      cachedName="Solo"
-                      externalMetadataColumnId="Package\PilotLogbookEntries\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[Solo Duration]"
-                      lineageId="Package\PilotLogbookEntries\Flat File Source.Outputs[Flat File Source Output].Columns[Solo]" />
-                    <inputColumn
-                      refId="Package\PilotLogbookEntries\Flat File Destination.Inputs[Flat File Destination Input].Columns[CrossCountry]"
-                      cachedDataType="r4"
-                      cachedName="CrossCountry"
-                      externalMetadataColumnId="Package\PilotLogbookEntries\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[Cross Country Duration]"
-                      lineageId="Package\PilotLogbookEntries\Flat File Source.Outputs[Flat File Source Output].Columns[CrossCountry]" />
-                    <inputColumn
-                      refId="Package\PilotLogbookEntries\Flat File Destination.Inputs[Flat File Destination Input].Columns[ActualInstrument]"
-                      cachedDataType="r4"
-                      cachedName="ActualInstrument"
-                      externalMetadataColumnId="Package\PilotLogbookEntries\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[Actual Instrument Duration]"
-                      lineageId="Package\PilotLogbookEntries\Flat File Source.Outputs[Flat File Source Output].Columns[ActualInstrument]" />
-                    <inputColumn
-                      refId="Package\PilotLogbookEntries\Flat File Destination.Inputs[Flat File Destination Input].Columns[SimulatedInstrument]"
-                      cachedDataType="r4"
-                      cachedName="SimulatedInstrument"
-                      externalMetadataColumnId="Package\PilotLogbookEntries\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[Simulated Instrument Duration]"
-                      lineageId="Package\PilotLogbookEntries\Flat File Source.Outputs[Flat File Source Output].Columns[SimulatedInstrument]" />
-                    <inputColumn
-                      refId="Package\PilotLogbookEntries\Flat File Destination.Inputs[Flat File Destination Input].Columns[DualReceived]"
-                      cachedDataType="r4"
-                      cachedName="DualReceived"
-                      externalMetadataColumnId="Package\PilotLogbookEntries\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[Dual Received Duration]"
-                      lineageId="Package\PilotLogbookEntries\Flat File Source.Outputs[Flat File Source Output].Columns[DualReceived]" />
-                    <inputColumn
-                      refId="Package\PilotLogbookEntries\Flat File Destination.Inputs[Flat File Destination Input].Columns[To]"
-                      cachedCodepage="1252"
-                      cachedDataType="str"
-                      cachedLength="19"
-                      cachedName="To"
-                      externalMetadataColumnId="Package\PilotLogbookEntries\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[Destination]"
-                      lineageId="Package\PilotLogbookEntries\Flat File Source.Outputs[Flat File Source Output].Columns[To]" />
-                    <inputColumn
-                      refId="Package\PilotLogbookEntries\Flat File Destination.Inputs[Flat File Destination Input].Columns[From]"
-                      cachedCodepage="1252"
-                      cachedDataType="str"
-                      cachedLength="7"
-                      cachedName="From"
-                      externalMetadataColumnId="Package\PilotLogbookEntries\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[Departure]"
-                      lineageId="Package\PilotLogbookEntries\Flat File Source.Outputs[Flat File Source Output].Columns[From]" />
-                    <inputColumn
-                      refId="Package\PilotLogbookEntries\Flat File Destination.Inputs[Flat File Destination Input].Columns[DayTakeoffs]"
-                      cachedDataType="r4"
-                      cachedName="DayTakeoffs"
-                      externalMetadataColumnId="Package\PilotLogbookEntries\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[Day Takeoffs]"
-                      lineageId="Package\PilotLogbookEntries\Flat File Source.Outputs[Flat File Source Output].Columns[DayTakeoffs]" />
-                    <inputColumn
-                      refId="Package\PilotLogbookEntries\Flat File Destination.Inputs[Flat File Destination Input].Columns[NightTakeoffs]"
-                      cachedDataType="i1"
-                      cachedName="NightTakeoffs"
-                      externalMetadataColumnId="Package\PilotLogbookEntries\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[Night Takeoffs]"
-                      lineageId="Package\PilotLogbookEntries\Flat File Source.Outputs[Flat File Source Output].Columns[NightTakeoffs]" />
-                    <inputColumn
-                      refId="Package\PilotLogbookEntries\Flat File Destination.Inputs[Flat File Destination Input].Columns[DayLandingsFullStop]"
-                      cachedDataType="i1"
-                      cachedName="DayLandingsFullStop"
-                      externalMetadataColumnId="Package\PilotLogbookEntries\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[Day Landings]"
-                      lineageId="Package\PilotLogbookEntries\Flat File Source.Outputs[Flat File Source Output].Columns[DayLandingsFullStop]" />
-                    <inputColumn
-                      refId="Package\PilotLogbookEntries\Flat File Destination.Inputs[Flat File Destination Input].Columns[NightLandingsFullStop]"
-                      cachedDataType="i1"
-                      cachedName="NightLandingsFullStop"
-                      externalMetadataColumnId="Package\PilotLogbookEntries\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[Night Landings]"
-                      lineageId="Package\PilotLogbookEntries\Flat File Source.Outputs[Flat File Source Output].Columns[NightLandingsFullStop]" />
-                    <inputColumn
-                      refId="Package\PilotLogbookEntries\Flat File Destination.Inputs[Flat File Destination Input].Columns[Holds]"
-                      cachedDataType="r4"
-                      cachedName="Holds"
-                      externalMetadataColumnId="Package\PilotLogbookEntries\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[Holding Patterns]"
-                      lineageId="Package\PilotLogbookEntries\Flat File Source.Outputs[Flat File Source Output].Columns[Holds]" />
-                    <inputColumn
-                      refId="Package\PilotLogbookEntries\Flat File Destination.Inputs[Flat File Destination Input].Columns[PilotComments]"
-                      cachedCodepage="1252"
-                      cachedDataType="str"
-                      cachedLength="264"
-                      cachedName="PilotComments"
-                      externalMetadataColumnId="Package\PilotLogbookEntries\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[Remarks]"
-                      lineageId="Package\PilotLogbookEntries\Flat File Source.Outputs[Flat File Source Output].Columns[PilotComments]" />
-                    <inputColumn
-                      refId="Package\PilotLogbookEntries\Flat File Destination.Inputs[Flat File Destination Input].Columns[PilotName]"
-                      cachedDataType="wstr"
-                      cachedLength="15"
-                      cachedName="PilotName"
-                      externalMetadataColumnId="Package\PilotLogbookEntries\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[PIC Name]"
-                      lineageId="Package\PilotLogbookEntries\Add Columns.Outputs[Derived Column Output].Columns[PilotName]" />
-                  </inputColumns>
-                  <externalMetadataColumns
-                    isUsed="True">
-                    <externalMetadataColumn
-                      refId="Package\PilotLogbookEntries\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[Date]"
-                      dataType="date"
-                      name="Date" />
-                    <externalMetadataColumn
-                      refId="Package\PilotLogbookEntries\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[Aircraft ID]"
-                      codePage="1252"
-                      dataType="str"
-                      length="7"
-                      name="Aircraft ID" />
-                    <externalMetadataColumn
-                      refId="Package\PilotLogbookEntries\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[Aircraft Type]"
-                      codePage="1252"
-                      dataType="str"
-                      length="7"
-                      name="Aircraft Type" />
-                    <externalMetadataColumn
-                      refId="Package\PilotLogbookEntries\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[Aircraft Operator]"
-                      codePage="1252"
-                      dataType="str"
-                      length="19"
-                      name="Aircraft Operator" />
-                    <externalMetadataColumn
-                      refId="Package\PilotLogbookEntries\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[PIC Name]"
-                      codePage="1252"
-                      dataType="str"
-                      length="29"
-                      name="PIC Name" />
-                    <externalMetadataColumn
-                      refId="Package\PilotLogbookEntries\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[Student Name]"
-                      codePage="1252"
-                      dataType="str"
-                      length="2"
-                      name="Student Name" />
-                    <externalMetadataColumn
-                      refId="Package\PilotLogbookEntries\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[Multi-Pilot]"
-                      codePage="1252"
-                      dataType="str"
-                      length="255"
-                      name="Multi-Pilot" />
-                    <externalMetadataColumn
-                      refId="Package\PilotLogbookEntries\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[ETD]"
-                      codePage="1252"
-                      dataType="str"
-                      length="255"
-                      name="ETD" />
-                    <externalMetadataColumn
-                      refId="Package\PilotLogbookEntries\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[Time Out]"
-                      dataType="date"
-                      name="Time Out" />
-                    <externalMetadataColumn
-                      refId="Package\PilotLogbookEntries\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[Time Off]"
-                      codePage="1252"
-                      dataType="str"
-                      length="255"
-                      name="Time Off" />
-                    <externalMetadataColumn
-                      refId="Package\PilotLogbookEntries\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[Time On]"
-                      codePage="1252"
-                      dataType="str"
-                      length="255"
-                      name="Time On" />
-                    <externalMetadataColumn
-                      refId="Package\PilotLogbookEntries\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[Time In]"
-                      dataType="r4"
-                      name="Time In" />
-                    <externalMetadataColumn
-                      refId="Package\PilotLogbookEntries\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[Hobbs Out]"
-                      dataType="r4"
-                      name="Hobbs Out" />
-                    <externalMetadataColumn
-                      refId="Package\PilotLogbookEntries\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[Hobbs In]"
-                      dataType="r4"
-                      name="Hobbs In" />
-                    <externalMetadataColumn
-                      refId="Package\PilotLogbookEntries\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[Tach Out]"
-                      dataType="r4"
-                      name="Tach Out" />
-                    <externalMetadataColumn
-                      refId="Package\PilotLogbookEntries\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[Tach In]"
-                      dataType="r4"
-                      name="Tach In" />
-                    <externalMetadataColumn
-                      refId="Package\PilotLogbookEntries\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[ETE]"
-                      dataType="r4"
-                      name="ETE" />
-                    <externalMetadataColumn
-                      refId="Package\PilotLogbookEntries\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[Total Duration]"
-                      dataType="r4"
-                      name="Total Duration" />
-                    <externalMetadataColumn
-                      refId="Package\PilotLogbookEntries\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[Flight Duration]"
-                      dataType="r4"
-                      name="Flight Duration" />
-                    <externalMetadataColumn
-                      refId="Package\PilotLogbookEntries\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[Night Duration]"
-                      dataType="i1"
-                      name="Night Duration" />
-                    <externalMetadataColumn
-                      refId="Package\PilotLogbookEntries\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[PIC Duration]"
-                      dataType="i1"
-                      name="PIC Duration" />
-                    <externalMetadataColumn
-                      refId="Package\PilotLogbookEntries\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[SIC Duration]"
-                      dataType="i1"
-                      name="SIC Duration" />
-                    <externalMetadataColumn
-                      refId="Package\PilotLogbookEntries\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[Solo Duration]"
-                      dataType="i1"
-                      name="Solo Duration" />
-                    <externalMetadataColumn
-                      refId="Package\PilotLogbookEntries\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[Cross Country Duration]"
-                      dataType="r4"
-                      name="Cross Country Duration" />
-                    <externalMetadataColumn
-                      refId="Package\PilotLogbookEntries\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[Actual Instrument Duration]"
-                      dataType="r4"
-                      name="Actual Instrument Duration" />
-                    <externalMetadataColumn
-                      refId="Package\PilotLogbookEntries\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[Simulated Instrument Duration]"
-                      dataType="r4"
-                      name="Simulated Instrument Duration" />
-                    <externalMetadataColumn
-                      refId="Package\PilotLogbookEntries\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[Simulator Duration]"
-                      dataType="r4"
-                      name="Simulator Duration" />
-                    <externalMetadataColumn
-                      refId="Package\PilotLogbookEntries\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[Dual Received Duration]"
-                      dataType="r4"
-                      name="Dual Received Duration" />
-                    <externalMetadataColumn
-                      refId="Package\PilotLogbookEntries\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[Dual Given Duration]"
-                      dataType="r4"
-                      name="Dual Given Duration" />
-                    <externalMetadataColumn
-                      refId="Package\PilotLogbookEntries\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[Evaluator Duration]"
-                      dataType="r4"
-                      name="Evaluator Duration" />
-                    <externalMetadataColumn
-                      refId="Package\PilotLogbookEntries\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[Ground Instruction Duration]"
-                      codePage="1252"
-                      dataType="str"
-                      length="66"
-                      name="Ground Instruction Duration" />
-                    <externalMetadataColumn
-                      refId="Package\PilotLogbookEntries\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[Departure]"
-                      codePage="1252"
-                      dataType="str"
-                      length="21"
-                      name="Departure" />
-                    <externalMetadataColumn
-                      refId="Package\PilotLogbookEntries\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[Destination]"
-                      codePage="1252"
-                      dataType="str"
-                      length="21"
-                      name="Destination" />
-                    <externalMetadataColumn
-                      refId="Package\PilotLogbookEntries\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[Route]"
-                      codePage="1252"
-                      dataType="str"
-                      length="21"
-                      name="Route" />
-                    <externalMetadataColumn
-                      refId="Package\PilotLogbookEntries\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[Legs]"
-                      codePage="1252"
-                      dataType="str"
-                      length="20"
-                      name="Legs" />
-                    <externalMetadataColumn
-                      refId="Package\PilotLogbookEntries\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[Day Takeoffs]"
-                      codePage="1252"
-                      dataType="str"
-                      length="255"
-                      name="Day Takeoffs" />
-                    <externalMetadataColumn
-                      refId="Package\PilotLogbookEntries\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[Night Takeoffs]"
-                      dataType="r4"
-                      name="Night Takeoffs" />
-                    <externalMetadataColumn
-                      refId="Package\PilotLogbookEntries\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[Day Landings]"
-                      dataType="r4"
-                      name="Day Landings" />
-                    <externalMetadataColumn
-                      refId="Package\PilotLogbookEntries\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[Night Landings]"
-                      dataType="r4"
-                      name="Night Landings" />
-                    <externalMetadataColumn
-                      refId="Package\PilotLogbookEntries\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[Approaches]"
-                      dataType="r4"
-                      name="Approaches" />
-                    <externalMetadataColumn
-                      refId="Package\PilotLogbookEntries\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[Holding Patterns]"
-                      codePage="1252"
-                      dataType="str"
-                      length="13"
-                      name="Holding Patterns" />
-                    <externalMetadataColumn
-                      refId="Package\PilotLogbookEntries\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[Track Nav Aid]"
-                      codePage="1252"
-                      dataType="str"
-                      length="100"
-                      name="Track Nav Aid" />
-                    <externalMetadataColumn
-                      refId="Package\PilotLogbookEntries\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[Expenses]"
-                      codePage="1252"
-                      dataType="str"
-                      length="116"
-                      name="Expenses" />
-                    <externalMetadataColumn
-                      refId="Package\PilotLogbookEntries\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[Fuel]"
-                      codePage="1252"
-                      dataType="str"
-                      length="165"
-                      name="Fuel" />
-                    <externalMetadataColumn
-                      refId="Package\PilotLogbookEntries\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[Planned Fuel]"
-                      codePage="1252"
-                      dataType="str"
-                      length="49"
-                      name="Planned Fuel" />
-                    <externalMetadataColumn
-                      refId="Package\PilotLogbookEntries\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[Fuel Remaining]"
-                      codePage="1252"
-                      dataType="str"
-                      length="14"
-                      name="Fuel Remaining" />
-                    <externalMetadataColumn
-                      refId="Package\PilotLogbookEntries\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[Fuel In]"
-                      codePage="1252"
-                      dataType="str"
-                      length="26"
-                      name="Fuel In" />
-                    <externalMetadataColumn
-                      refId="Package\PilotLogbookEntries\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[Fuel Out]"
-                      codePage="1252"
-                      dataType="str"
-                      length="49"
-                      name="Fuel Out" />
-                    <externalMetadataColumn
-                      refId="Package\PilotLogbookEntries\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[Fuel Added]"
-                      codePage="1252"
-                      dataType="str"
-                      length="13"
-                      name="Fuel Added" />
-                    <externalMetadataColumn
-                      refId="Package\PilotLogbookEntries\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[Oil Level]"
-                      codePage="1252"
-                      dataType="str"
-                      length="6"
-                      name="Oil Level" />
-                    <externalMetadataColumn
-                      refId="Package\PilotLogbookEntries\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[Oil Added]"
-                      codePage="1252"
-                      dataType="str"
-                      length="31"
-                      name="Oil Added" />
-                    <externalMetadataColumn
-                      refId="Package\PilotLogbookEntries\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[Remarks]"
-                      codePage="1252"
-                      dataType="str"
-                      length="264"
-                      name="Remarks" />
-                  </externalMetadataColumns>
-                </input>
-              </inputs>
-            </component>
-            <component
               refId="Package\PilotLogbookEntries\Flat File Source"
               componentClassID="Microsoft.FlatFileSource"
               contactInfo="Flat File Source;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;1"
@@ -3883,8 +3446,8 @@
               <connections>
                 <connection
                   refId="Package\PilotLogbookEntries\Flat File Source.Connections[FlatFileConnection]"
-                  connectionManagerID="Package.ConnectionManagers[Foreflight-Flights-ExporrtFile]"
-                  connectionManagerRefId="Package.ConnectionManagers[Foreflight-Flights-ExporrtFile]"
+                  connectionManagerID="Package.ConnectionManagers[Foreflight-Log-Entries]"
+                  connectionManagerRefId="Package.ConnectionManagers[Foreflight-Log-Entries]"
                   name="FlatFileConnection" />
               </connections>
               <outputs>
@@ -5283,6 +4846,443 @@
               </outputs>
             </component>
             <component
+              refId="Package\PilotLogbookEntries\Garmin Piliot Log Entries Flat File"
+              componentClassID="Microsoft.FlatFileDestination"
+              contactInfo="Flat File Destination;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;0"
+              description="Flat File Destination"
+              localeId="1033"
+              name="Garmin Piliot Log Entries Flat File">
+              <properties>
+                <property
+                  dataType="System.Boolean"
+                  description="Specifies whether the data will overwrite or append to the destination file."
+                  name="Overwrite">true</property>
+                <property
+                  dataType="System.Null"
+                  description="Specifies the text to write to the destination file before any data is written."
+                  expressionType="Notify"
+                  name="Header" />
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\PilotLogbookEntries\Garmin Piliot Log Entries Flat File.Connections[FlatFileConnection]"
+                  connectionManagerID="Package.ConnectionManagers[Garmin-Log-Entries]"
+                  connectionManagerRefId="Package.ConnectionManagers[Garmin-Log-Entries]"
+                  name="FlatFileConnection" />
+              </connections>
+              <inputs>
+                <input
+                  refId="Package\PilotLogbookEntries\Garmin Piliot Log Entries Flat File.Inputs[Flat File Destination Input]"
+                  hasSideEffects="true"
+                  name="Flat File Destination Input">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\PilotLogbookEntries\Garmin Piliot Log Entries Flat File.Inputs[Flat File Destination Input].Columns[Date]"
+                      cachedDataType="date"
+                      cachedName="Date"
+                      externalMetadataColumnId="Package\PilotLogbookEntries\Garmin Piliot Log Entries Flat File.Inputs[Flat File Destination Input].ExternalColumns[Date]"
+                      lineageId="Package\PilotLogbookEntries\Flat File Source.Outputs[Flat File Source Output].Columns[Date]" />
+                    <inputColumn
+                      refId="Package\PilotLogbookEntries\Garmin Piliot Log Entries Flat File.Inputs[Flat File Destination Input].Columns[Route]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="29"
+                      cachedName="Route"
+                      externalMetadataColumnId="Package\PilotLogbookEntries\Garmin Piliot Log Entries Flat File.Inputs[Flat File Destination Input].ExternalColumns[Route]"
+                      lineageId="Package\PilotLogbookEntries\Flat File Source.Outputs[Flat File Source Output].Columns[Route]" />
+                    <inputColumn
+                      refId="Package\PilotLogbookEntries\Garmin Piliot Log Entries Flat File.Inputs[Flat File Destination Input].Columns[AircraftID]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="7"
+                      cachedName="AircraftID"
+                      externalMetadataColumnId="Package\PilotLogbookEntries\Garmin Piliot Log Entries Flat File.Inputs[Flat File Destination Input].ExternalColumns[Aircraft ID]"
+                      lineageId="Package\PilotLogbookEntries\Flat File Source.Outputs[Flat File Source Output].Columns[AircraftID]" />
+                    <inputColumn
+                      refId="Package\PilotLogbookEntries\Garmin Piliot Log Entries Flat File.Inputs[Flat File Destination Input].Columns[TachStart]"
+                      cachedDataType="r4"
+                      cachedName="TachStart"
+                      externalMetadataColumnId="Package\PilotLogbookEntries\Garmin Piliot Log Entries Flat File.Inputs[Flat File Destination Input].ExternalColumns[Tach Out]"
+                      lineageId="Package\PilotLogbookEntries\Flat File Source.Outputs[Flat File Source Output].Columns[TachStart]" />
+                    <inputColumn
+                      refId="Package\PilotLogbookEntries\Garmin Piliot Log Entries Flat File.Inputs[Flat File Destination Input].Columns[TachEnd]"
+                      cachedDataType="r4"
+                      cachedName="TachEnd"
+                      externalMetadataColumnId="Package\PilotLogbookEntries\Garmin Piliot Log Entries Flat File.Inputs[Flat File Destination Input].ExternalColumns[Tach In]"
+                      lineageId="Package\PilotLogbookEntries\Flat File Source.Outputs[Flat File Source Output].Columns[TachEnd]" />
+                    <inputColumn
+                      refId="Package\PilotLogbookEntries\Garmin Piliot Log Entries Flat File.Inputs[Flat File Destination Input].Columns[TotalTime]"
+                      cachedDataType="r4"
+                      cachedName="TotalTime"
+                      externalMetadataColumnId="Package\PilotLogbookEntries\Garmin Piliot Log Entries Flat File.Inputs[Flat File Destination Input].ExternalColumns[Total Duration]"
+                      lineageId="Package\PilotLogbookEntries\Flat File Source.Outputs[Flat File Source Output].Columns[TotalTime]" />
+                    <inputColumn
+                      refId="Package\PilotLogbookEntries\Garmin Piliot Log Entries Flat File.Inputs[Flat File Destination Input].Columns[PIC]"
+                      cachedDataType="r4"
+                      cachedName="PIC"
+                      externalMetadataColumnId="Package\PilotLogbookEntries\Garmin Piliot Log Entries Flat File.Inputs[Flat File Destination Input].ExternalColumns[PIC Duration]"
+                      lineageId="Package\PilotLogbookEntries\Flat File Source.Outputs[Flat File Source Output].Columns[PIC]" />
+                    <inputColumn
+                      refId="Package\PilotLogbookEntries\Garmin Piliot Log Entries Flat File.Inputs[Flat File Destination Input].Columns[Solo]"
+                      cachedDataType="r4"
+                      cachedName="Solo"
+                      externalMetadataColumnId="Package\PilotLogbookEntries\Garmin Piliot Log Entries Flat File.Inputs[Flat File Destination Input].ExternalColumns[Solo Duration]"
+                      lineageId="Package\PilotLogbookEntries\Flat File Source.Outputs[Flat File Source Output].Columns[Solo]" />
+                    <inputColumn
+                      refId="Package\PilotLogbookEntries\Garmin Piliot Log Entries Flat File.Inputs[Flat File Destination Input].Columns[CrossCountry]"
+                      cachedDataType="r4"
+                      cachedName="CrossCountry"
+                      externalMetadataColumnId="Package\PilotLogbookEntries\Garmin Piliot Log Entries Flat File.Inputs[Flat File Destination Input].ExternalColumns[Cross Country Duration]"
+                      lineageId="Package\PilotLogbookEntries\Flat File Source.Outputs[Flat File Source Output].Columns[CrossCountry]" />
+                    <inputColumn
+                      refId="Package\PilotLogbookEntries\Garmin Piliot Log Entries Flat File.Inputs[Flat File Destination Input].Columns[ActualInstrument]"
+                      cachedDataType="r4"
+                      cachedName="ActualInstrument"
+                      externalMetadataColumnId="Package\PilotLogbookEntries\Garmin Piliot Log Entries Flat File.Inputs[Flat File Destination Input].ExternalColumns[Actual Instrument Duration]"
+                      lineageId="Package\PilotLogbookEntries\Flat File Source.Outputs[Flat File Source Output].Columns[ActualInstrument]" />
+                    <inputColumn
+                      refId="Package\PilotLogbookEntries\Garmin Piliot Log Entries Flat File.Inputs[Flat File Destination Input].Columns[SimulatedInstrument]"
+                      cachedDataType="r4"
+                      cachedName="SimulatedInstrument"
+                      externalMetadataColumnId="Package\PilotLogbookEntries\Garmin Piliot Log Entries Flat File.Inputs[Flat File Destination Input].ExternalColumns[Simulated Instrument Duration]"
+                      lineageId="Package\PilotLogbookEntries\Flat File Source.Outputs[Flat File Source Output].Columns[SimulatedInstrument]" />
+                    <inputColumn
+                      refId="Package\PilotLogbookEntries\Garmin Piliot Log Entries Flat File.Inputs[Flat File Destination Input].Columns[DualReceived]"
+                      cachedDataType="r4"
+                      cachedName="DualReceived"
+                      externalMetadataColumnId="Package\PilotLogbookEntries\Garmin Piliot Log Entries Flat File.Inputs[Flat File Destination Input].ExternalColumns[Dual Received Duration]"
+                      lineageId="Package\PilotLogbookEntries\Flat File Source.Outputs[Flat File Source Output].Columns[DualReceived]" />
+                    <inputColumn
+                      refId="Package\PilotLogbookEntries\Garmin Piliot Log Entries Flat File.Inputs[Flat File Destination Input].Columns[To]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="19"
+                      cachedName="To"
+                      externalMetadataColumnId="Package\PilotLogbookEntries\Garmin Piliot Log Entries Flat File.Inputs[Flat File Destination Input].ExternalColumns[Destination]"
+                      lineageId="Package\PilotLogbookEntries\Flat File Source.Outputs[Flat File Source Output].Columns[To]" />
+                    <inputColumn
+                      refId="Package\PilotLogbookEntries\Garmin Piliot Log Entries Flat File.Inputs[Flat File Destination Input].Columns[From]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="7"
+                      cachedName="From"
+                      externalMetadataColumnId="Package\PilotLogbookEntries\Garmin Piliot Log Entries Flat File.Inputs[Flat File Destination Input].ExternalColumns[Departure]"
+                      lineageId="Package\PilotLogbookEntries\Flat File Source.Outputs[Flat File Source Output].Columns[From]" />
+                    <inputColumn
+                      refId="Package\PilotLogbookEntries\Garmin Piliot Log Entries Flat File.Inputs[Flat File Destination Input].Columns[DayTakeoffs]"
+                      cachedDataType="r4"
+                      cachedName="DayTakeoffs"
+                      externalMetadataColumnId="Package\PilotLogbookEntries\Garmin Piliot Log Entries Flat File.Inputs[Flat File Destination Input].ExternalColumns[Day Takeoffs]"
+                      lineageId="Package\PilotLogbookEntries\Flat File Source.Outputs[Flat File Source Output].Columns[DayTakeoffs]" />
+                    <inputColumn
+                      refId="Package\PilotLogbookEntries\Garmin Piliot Log Entries Flat File.Inputs[Flat File Destination Input].Columns[NightTakeoffs]"
+                      cachedDataType="i1"
+                      cachedName="NightTakeoffs"
+                      externalMetadataColumnId="Package\PilotLogbookEntries\Garmin Piliot Log Entries Flat File.Inputs[Flat File Destination Input].ExternalColumns[Night Takeoffs]"
+                      lineageId="Package\PilotLogbookEntries\Flat File Source.Outputs[Flat File Source Output].Columns[NightTakeoffs]" />
+                    <inputColumn
+                      refId="Package\PilotLogbookEntries\Garmin Piliot Log Entries Flat File.Inputs[Flat File Destination Input].Columns[DayLandingsFullStop]"
+                      cachedDataType="i1"
+                      cachedName="DayLandingsFullStop"
+                      externalMetadataColumnId="Package\PilotLogbookEntries\Garmin Piliot Log Entries Flat File.Inputs[Flat File Destination Input].ExternalColumns[Day Landings]"
+                      lineageId="Package\PilotLogbookEntries\Flat File Source.Outputs[Flat File Source Output].Columns[DayLandingsFullStop]" />
+                    <inputColumn
+                      refId="Package\PilotLogbookEntries\Garmin Piliot Log Entries Flat File.Inputs[Flat File Destination Input].Columns[NightLandingsFullStop]"
+                      cachedDataType="i1"
+                      cachedName="NightLandingsFullStop"
+                      externalMetadataColumnId="Package\PilotLogbookEntries\Garmin Piliot Log Entries Flat File.Inputs[Flat File Destination Input].ExternalColumns[Night Landings]"
+                      lineageId="Package\PilotLogbookEntries\Flat File Source.Outputs[Flat File Source Output].Columns[NightLandingsFullStop]" />
+                    <inputColumn
+                      refId="Package\PilotLogbookEntries\Garmin Piliot Log Entries Flat File.Inputs[Flat File Destination Input].Columns[Holds]"
+                      cachedDataType="r4"
+                      cachedName="Holds"
+                      externalMetadataColumnId="Package\PilotLogbookEntries\Garmin Piliot Log Entries Flat File.Inputs[Flat File Destination Input].ExternalColumns[Holding Patterns]"
+                      lineageId="Package\PilotLogbookEntries\Flat File Source.Outputs[Flat File Source Output].Columns[Holds]" />
+                    <inputColumn
+                      refId="Package\PilotLogbookEntries\Garmin Piliot Log Entries Flat File.Inputs[Flat File Destination Input].Columns[PilotComments]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="264"
+                      cachedName="PilotComments"
+                      externalMetadataColumnId="Package\PilotLogbookEntries\Garmin Piliot Log Entries Flat File.Inputs[Flat File Destination Input].ExternalColumns[Remarks]"
+                      lineageId="Package\PilotLogbookEntries\Flat File Source.Outputs[Flat File Source Output].Columns[PilotComments]" />
+                    <inputColumn
+                      refId="Package\PilotLogbookEntries\Garmin Piliot Log Entries Flat File.Inputs[Flat File Destination Input].Columns[PilotName]"
+                      cachedDataType="wstr"
+                      cachedLength="15"
+                      cachedName="PilotName"
+                      externalMetadataColumnId="Package\PilotLogbookEntries\Garmin Piliot Log Entries Flat File.Inputs[Flat File Destination Input].ExternalColumns[PIC Name]"
+                      lineageId="Package\PilotLogbookEntries\Add Columns.Outputs[Derived Column Output].Columns[PilotName]" />
+                  </inputColumns>
+                  <externalMetadataColumns
+                    isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\PilotLogbookEntries\Garmin Piliot Log Entries Flat File.Inputs[Flat File Destination Input].ExternalColumns[Date]"
+                      dataType="date"
+                      name="Date" />
+                    <externalMetadataColumn
+                      refId="Package\PilotLogbookEntries\Garmin Piliot Log Entries Flat File.Inputs[Flat File Destination Input].ExternalColumns[Aircraft ID]"
+                      codePage="1252"
+                      dataType="str"
+                      length="7"
+                      name="Aircraft ID" />
+                    <externalMetadataColumn
+                      refId="Package\PilotLogbookEntries\Garmin Piliot Log Entries Flat File.Inputs[Flat File Destination Input].ExternalColumns[Aircraft Type]"
+                      codePage="1252"
+                      dataType="str"
+                      length="7"
+                      name="Aircraft Type" />
+                    <externalMetadataColumn
+                      refId="Package\PilotLogbookEntries\Garmin Piliot Log Entries Flat File.Inputs[Flat File Destination Input].ExternalColumns[Aircraft Operator]"
+                      codePage="1252"
+                      dataType="str"
+                      length="19"
+                      name="Aircraft Operator" />
+                    <externalMetadataColumn
+                      refId="Package\PilotLogbookEntries\Garmin Piliot Log Entries Flat File.Inputs[Flat File Destination Input].ExternalColumns[PIC Name]"
+                      codePage="1252"
+                      dataType="str"
+                      length="29"
+                      name="PIC Name" />
+                    <externalMetadataColumn
+                      refId="Package\PilotLogbookEntries\Garmin Piliot Log Entries Flat File.Inputs[Flat File Destination Input].ExternalColumns[Student Name]"
+                      codePage="1252"
+                      dataType="str"
+                      length="2"
+                      name="Student Name" />
+                    <externalMetadataColumn
+                      refId="Package\PilotLogbookEntries\Garmin Piliot Log Entries Flat File.Inputs[Flat File Destination Input].ExternalColumns[Multi-Pilot]"
+                      codePage="1252"
+                      dataType="str"
+                      length="255"
+                      name="Multi-Pilot" />
+                    <externalMetadataColumn
+                      refId="Package\PilotLogbookEntries\Garmin Piliot Log Entries Flat File.Inputs[Flat File Destination Input].ExternalColumns[ETD]"
+                      codePage="1252"
+                      dataType="str"
+                      length="255"
+                      name="ETD" />
+                    <externalMetadataColumn
+                      refId="Package\PilotLogbookEntries\Garmin Piliot Log Entries Flat File.Inputs[Flat File Destination Input].ExternalColumns[Time Out]"
+                      dataType="date"
+                      name="Time Out" />
+                    <externalMetadataColumn
+                      refId="Package\PilotLogbookEntries\Garmin Piliot Log Entries Flat File.Inputs[Flat File Destination Input].ExternalColumns[Time Off]"
+                      codePage="1252"
+                      dataType="str"
+                      length="255"
+                      name="Time Off" />
+                    <externalMetadataColumn
+                      refId="Package\PilotLogbookEntries\Garmin Piliot Log Entries Flat File.Inputs[Flat File Destination Input].ExternalColumns[Time On]"
+                      codePage="1252"
+                      dataType="str"
+                      length="255"
+                      name="Time On" />
+                    <externalMetadataColumn
+                      refId="Package\PilotLogbookEntries\Garmin Piliot Log Entries Flat File.Inputs[Flat File Destination Input].ExternalColumns[Time In]"
+                      dataType="r4"
+                      name="Time In" />
+                    <externalMetadataColumn
+                      refId="Package\PilotLogbookEntries\Garmin Piliot Log Entries Flat File.Inputs[Flat File Destination Input].ExternalColumns[Hobbs Out]"
+                      dataType="r4"
+                      name="Hobbs Out" />
+                    <externalMetadataColumn
+                      refId="Package\PilotLogbookEntries\Garmin Piliot Log Entries Flat File.Inputs[Flat File Destination Input].ExternalColumns[Hobbs In]"
+                      dataType="r4"
+                      name="Hobbs In" />
+                    <externalMetadataColumn
+                      refId="Package\PilotLogbookEntries\Garmin Piliot Log Entries Flat File.Inputs[Flat File Destination Input].ExternalColumns[Tach Out]"
+                      dataType="r4"
+                      name="Tach Out" />
+                    <externalMetadataColumn
+                      refId="Package\PilotLogbookEntries\Garmin Piliot Log Entries Flat File.Inputs[Flat File Destination Input].ExternalColumns[Tach In]"
+                      dataType="r4"
+                      name="Tach In" />
+                    <externalMetadataColumn
+                      refId="Package\PilotLogbookEntries\Garmin Piliot Log Entries Flat File.Inputs[Flat File Destination Input].ExternalColumns[ETE]"
+                      dataType="r4"
+                      name="ETE" />
+                    <externalMetadataColumn
+                      refId="Package\PilotLogbookEntries\Garmin Piliot Log Entries Flat File.Inputs[Flat File Destination Input].ExternalColumns[Total Duration]"
+                      dataType="r4"
+                      name="Total Duration" />
+                    <externalMetadataColumn
+                      refId="Package\PilotLogbookEntries\Garmin Piliot Log Entries Flat File.Inputs[Flat File Destination Input].ExternalColumns[Flight Duration]"
+                      dataType="r4"
+                      name="Flight Duration" />
+                    <externalMetadataColumn
+                      refId="Package\PilotLogbookEntries\Garmin Piliot Log Entries Flat File.Inputs[Flat File Destination Input].ExternalColumns[Night Duration]"
+                      dataType="i1"
+                      name="Night Duration" />
+                    <externalMetadataColumn
+                      refId="Package\PilotLogbookEntries\Garmin Piliot Log Entries Flat File.Inputs[Flat File Destination Input].ExternalColumns[PIC Duration]"
+                      dataType="i1"
+                      name="PIC Duration" />
+                    <externalMetadataColumn
+                      refId="Package\PilotLogbookEntries\Garmin Piliot Log Entries Flat File.Inputs[Flat File Destination Input].ExternalColumns[SIC Duration]"
+                      dataType="i1"
+                      name="SIC Duration" />
+                    <externalMetadataColumn
+                      refId="Package\PilotLogbookEntries\Garmin Piliot Log Entries Flat File.Inputs[Flat File Destination Input].ExternalColumns[Solo Duration]"
+                      dataType="i1"
+                      name="Solo Duration" />
+                    <externalMetadataColumn
+                      refId="Package\PilotLogbookEntries\Garmin Piliot Log Entries Flat File.Inputs[Flat File Destination Input].ExternalColumns[Cross Country Duration]"
+                      dataType="r4"
+                      name="Cross Country Duration" />
+                    <externalMetadataColumn
+                      refId="Package\PilotLogbookEntries\Garmin Piliot Log Entries Flat File.Inputs[Flat File Destination Input].ExternalColumns[Actual Instrument Duration]"
+                      dataType="r4"
+                      name="Actual Instrument Duration" />
+                    <externalMetadataColumn
+                      refId="Package\PilotLogbookEntries\Garmin Piliot Log Entries Flat File.Inputs[Flat File Destination Input].ExternalColumns[Simulated Instrument Duration]"
+                      dataType="r4"
+                      name="Simulated Instrument Duration" />
+                    <externalMetadataColumn
+                      refId="Package\PilotLogbookEntries\Garmin Piliot Log Entries Flat File.Inputs[Flat File Destination Input].ExternalColumns[Simulator Duration]"
+                      dataType="r4"
+                      name="Simulator Duration" />
+                    <externalMetadataColumn
+                      refId="Package\PilotLogbookEntries\Garmin Piliot Log Entries Flat File.Inputs[Flat File Destination Input].ExternalColumns[Dual Received Duration]"
+                      dataType="r4"
+                      name="Dual Received Duration" />
+                    <externalMetadataColumn
+                      refId="Package\PilotLogbookEntries\Garmin Piliot Log Entries Flat File.Inputs[Flat File Destination Input].ExternalColumns[Dual Given Duration]"
+                      dataType="r4"
+                      name="Dual Given Duration" />
+                    <externalMetadataColumn
+                      refId="Package\PilotLogbookEntries\Garmin Piliot Log Entries Flat File.Inputs[Flat File Destination Input].ExternalColumns[Evaluator Duration]"
+                      dataType="r4"
+                      name="Evaluator Duration" />
+                    <externalMetadataColumn
+                      refId="Package\PilotLogbookEntries\Garmin Piliot Log Entries Flat File.Inputs[Flat File Destination Input].ExternalColumns[Ground Instruction Duration]"
+                      codePage="1252"
+                      dataType="str"
+                      length="66"
+                      name="Ground Instruction Duration" />
+                    <externalMetadataColumn
+                      refId="Package\PilotLogbookEntries\Garmin Piliot Log Entries Flat File.Inputs[Flat File Destination Input].ExternalColumns[Departure]"
+                      codePage="1252"
+                      dataType="str"
+                      length="21"
+                      name="Departure" />
+                    <externalMetadataColumn
+                      refId="Package\PilotLogbookEntries\Garmin Piliot Log Entries Flat File.Inputs[Flat File Destination Input].ExternalColumns[Destination]"
+                      codePage="1252"
+                      dataType="str"
+                      length="21"
+                      name="Destination" />
+                    <externalMetadataColumn
+                      refId="Package\PilotLogbookEntries\Garmin Piliot Log Entries Flat File.Inputs[Flat File Destination Input].ExternalColumns[Route]"
+                      codePage="1252"
+                      dataType="str"
+                      length="21"
+                      name="Route" />
+                    <externalMetadataColumn
+                      refId="Package\PilotLogbookEntries\Garmin Piliot Log Entries Flat File.Inputs[Flat File Destination Input].ExternalColumns[Legs]"
+                      codePage="1252"
+                      dataType="str"
+                      length="20"
+                      name="Legs" />
+                    <externalMetadataColumn
+                      refId="Package\PilotLogbookEntries\Garmin Piliot Log Entries Flat File.Inputs[Flat File Destination Input].ExternalColumns[Day Takeoffs]"
+                      codePage="1252"
+                      dataType="str"
+                      length="255"
+                      name="Day Takeoffs" />
+                    <externalMetadataColumn
+                      refId="Package\PilotLogbookEntries\Garmin Piliot Log Entries Flat File.Inputs[Flat File Destination Input].ExternalColumns[Night Takeoffs]"
+                      dataType="r4"
+                      name="Night Takeoffs" />
+                    <externalMetadataColumn
+                      refId="Package\PilotLogbookEntries\Garmin Piliot Log Entries Flat File.Inputs[Flat File Destination Input].ExternalColumns[Day Landings]"
+                      dataType="r4"
+                      name="Day Landings" />
+                    <externalMetadataColumn
+                      refId="Package\PilotLogbookEntries\Garmin Piliot Log Entries Flat File.Inputs[Flat File Destination Input].ExternalColumns[Night Landings]"
+                      dataType="r4"
+                      name="Night Landings" />
+                    <externalMetadataColumn
+                      refId="Package\PilotLogbookEntries\Garmin Piliot Log Entries Flat File.Inputs[Flat File Destination Input].ExternalColumns[Approaches]"
+                      dataType="r4"
+                      name="Approaches" />
+                    <externalMetadataColumn
+                      refId="Package\PilotLogbookEntries\Garmin Piliot Log Entries Flat File.Inputs[Flat File Destination Input].ExternalColumns[Holding Patterns]"
+                      codePage="1252"
+                      dataType="str"
+                      length="13"
+                      name="Holding Patterns" />
+                    <externalMetadataColumn
+                      refId="Package\PilotLogbookEntries\Garmin Piliot Log Entries Flat File.Inputs[Flat File Destination Input].ExternalColumns[Track Nav Aid]"
+                      codePage="1252"
+                      dataType="str"
+                      length="100"
+                      name="Track Nav Aid" />
+                    <externalMetadataColumn
+                      refId="Package\PilotLogbookEntries\Garmin Piliot Log Entries Flat File.Inputs[Flat File Destination Input].ExternalColumns[Expenses]"
+                      codePage="1252"
+                      dataType="str"
+                      length="116"
+                      name="Expenses" />
+                    <externalMetadataColumn
+                      refId="Package\PilotLogbookEntries\Garmin Piliot Log Entries Flat File.Inputs[Flat File Destination Input].ExternalColumns[Fuel]"
+                      codePage="1252"
+                      dataType="str"
+                      length="165"
+                      name="Fuel" />
+                    <externalMetadataColumn
+                      refId="Package\PilotLogbookEntries\Garmin Piliot Log Entries Flat File.Inputs[Flat File Destination Input].ExternalColumns[Planned Fuel]"
+                      codePage="1252"
+                      dataType="str"
+                      length="49"
+                      name="Planned Fuel" />
+                    <externalMetadataColumn
+                      refId="Package\PilotLogbookEntries\Garmin Piliot Log Entries Flat File.Inputs[Flat File Destination Input].ExternalColumns[Fuel Remaining]"
+                      codePage="1252"
+                      dataType="str"
+                      length="14"
+                      name="Fuel Remaining" />
+                    <externalMetadataColumn
+                      refId="Package\PilotLogbookEntries\Garmin Piliot Log Entries Flat File.Inputs[Flat File Destination Input].ExternalColumns[Fuel In]"
+                      codePage="1252"
+                      dataType="str"
+                      length="26"
+                      name="Fuel In" />
+                    <externalMetadataColumn
+                      refId="Package\PilotLogbookEntries\Garmin Piliot Log Entries Flat File.Inputs[Flat File Destination Input].ExternalColumns[Fuel Out]"
+                      codePage="1252"
+                      dataType="str"
+                      length="49"
+                      name="Fuel Out" />
+                    <externalMetadataColumn
+                      refId="Package\PilotLogbookEntries\Garmin Piliot Log Entries Flat File.Inputs[Flat File Destination Input].ExternalColumns[Fuel Added]"
+                      codePage="1252"
+                      dataType="str"
+                      length="13"
+                      name="Fuel Added" />
+                    <externalMetadataColumn
+                      refId="Package\PilotLogbookEntries\Garmin Piliot Log Entries Flat File.Inputs[Flat File Destination Input].ExternalColumns[Oil Level]"
+                      codePage="1252"
+                      dataType="str"
+                      length="6"
+                      name="Oil Level" />
+                    <externalMetadataColumn
+                      refId="Package\PilotLogbookEntries\Garmin Piliot Log Entries Flat File.Inputs[Flat File Destination Input].ExternalColumns[Oil Added]"
+                      codePage="1252"
+                      dataType="str"
+                      length="31"
+                      name="Oil Added" />
+                    <externalMetadataColumn
+                      refId="Package\PilotLogbookEntries\Garmin Piliot Log Entries Flat File.Inputs[Flat File Destination Input].ExternalColumns[Remarks]"
+                      codePage="1252"
+                      dataType="str"
+                      length="264"
+                      name="Remarks" />
+                  </externalMetadataColumns>
+                </input>
+              </inputs>
+            </component>
+            <component
               refId="Package\PilotLogbookEntries\Multicast"
               componentClassID="Microsoft.Multicast"
               contactInfo="Multicast;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;0"
@@ -6021,7 +6021,7 @@
           <paths>
             <path
               refId="Package\PilotLogbookEntries.Paths[Derived Column Output]"
-              endId="Package\PilotLogbookEntries\Flat File Destination.Inputs[Flat File Destination Input]"
+              endId="Package\PilotLogbookEntries\Garmin Piliot Log Entries Flat File.Inputs[Flat File Destination Input]"
               name="Derived Column Output"
               startId="Package\PilotLogbookEntries\Add Columns.Outputs[Derived Column Output]" />
             <path
@@ -6188,7 +6188,7 @@
     design-time-name="Package\AircraftEntries">
     <LayoutInfo>
       <GraphLayout
-        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
           Size="171,42"
           Id="Package\AircraftEntries\OLE DB Destination"
@@ -6216,7 +6216,9 @@
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
@@ -6241,69 +6243,25 @@
       <GraphLayout
         Capacity="16" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
-          Size="145,42"
-          Id="Package\PilotLogbookEntries\SQL Database"
-          TopLeft="180,248" />
-        <NodeLayout
           Size="151,42"
           Id="Package\PilotLogbookEntries\Flat File Source"
           TopLeft="178,31" />
         <NodeLayout
-          Size="172,42"
-          Id="Package\PilotLogbookEntries\Flat File Destination"
-          TopLeft="364,244" />
+          Size="234,42"
+          Id="Package\PilotLogbookEntries\Garmin Piliot Log Entries Flat File"
+          TopLeft="338,254" />
         <NodeLayout
-          Size="120,42"
-          Id="Package\PilotLogbookEntries\Multicast"
-          TopLeft="195,132" />
-        <EdgeLayout
-          Id="Package\PilotLogbookEntries.Paths[Flat File Source Output]"
-          TopLeft="254.25,73">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,59"
-              Start="0,0"
-              End="0,51.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,51.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\PilotLogbookEntries.Paths[Multicast Output 1]"
-          TopLeft="253.75,174">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,74"
-              Start="0,0"
-              End="0,66.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,66.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
+          Size="145,42"
+          Id="Package\PilotLogbookEntries\SQL Database"
+          TopLeft="175,252" />
         <NodeLayout
           Size="141,42"
           Id="Package\PilotLogbookEntries\Add Columns"
           TopLeft="377,126" />
+        <NodeLayout
+          Size="120,42"
+          Id="Package\PilotLogbookEntries\Multicast"
+          TopLeft="195,132" />
         <EdgeLayout
           Id="Package\PilotLogbookEntries.Paths[Multicast Output 3]"
           TopLeft="315,150">
@@ -6327,19 +6285,63 @@
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\PilotLogbookEntries.Paths[Derived Column Output]"
-          TopLeft="448.75,168">
+          Id="Package\PilotLogbookEntries.Paths[Multicast Output 1]"
+          TopLeft="251.25,174">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,76"
+              EndConnector="0,78"
               Start="0,0"
-              End="0,68.5">
+              End="0,70.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,68.5" />
+                    End="0,70.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\PilotLogbookEntries.Paths[Flat File Source Output]"
+          TopLeft="254.25,73">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,59"
+              Start="0,0"
+              End="0,51.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,51.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\PilotLogbookEntries.Paths[Derived Column Output]"
+          TopLeft="451.25,168">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,86"
+              Start="0,0"
+              End="0,78.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,78.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>

@@ -2,13 +2,13 @@
 <BuildLog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <ProjectInfo>
     <Name>ForeFlightToSQL</Name>
-    <LastWriteTime>2019-02-19T14:12:31.0226703Z</LastWriteTime>
+    <LastWriteTime>2019-02-19T16:27:32.897247Z</LastWriteTime>
     <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
   </ProjectInfo>
   <LastBuildInfos>
     <ProjectBuildItemInfo>
       <Name>ForeFlight.dtsx</Name>
-      <LastWriteTime>2019-02-19T14:12:31.0056738Z</LastWriteTime>
+      <LastWriteTime>2019-02-19T16:27:32.8752682Z</LastWriteTime>
       <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
     </ProjectBuildItemInfo>
   </LastBuildInfos>

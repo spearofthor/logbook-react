@@ -23,12 +23,12 @@
     [TachStart]             DECIMAL (18, 2) NULL,
     [TachEnd]               DECIMAL (18, 2) NULL,
     [Holds]                 DECIMAL (18, 2) NULL,
-    [Approach1]             VARCHAR (100)   NULL,
-    [Approach2]             VARCHAR (100)   NULL,
-    [Approach3]             VARCHAR (100)   NULL,
-    [Approach4]             VARCHAR (100)   NULL,
-    [Approach5]             VARCHAR (100)   NULL,
-    [Approach6]             VARCHAR (100)   NULL,
+    [Approach1]             VARCHAR (255)   NULL,
+    [Approach2]             VARCHAR (255)   NULL,
+    [Approach3]             VARCHAR (255)   NULL,
+    [Approach4]             VARCHAR (255)   NULL,
+    [Approach5]             VARCHAR (255)   NULL,
+    [Approach6]             VARCHAR (255)   NULL,
     [DualGiven]             DECIMAL (18, 2) NULL,
     [DualReceived]          DECIMAL (18, 2) NULL,
     [SimulatedFlight]       DECIMAL (18, 2) NULL,
@@ -47,4 +47,6 @@
     [PilotComments]         VARCHAR (1000)  NULL,
     [PrivatePilotTraining]  VARCHAR (100)   CONSTRAINT [DF_Flights_PrivatePilotTraining] DEFAULT ('FALSE') NULL
 );
+
+
 

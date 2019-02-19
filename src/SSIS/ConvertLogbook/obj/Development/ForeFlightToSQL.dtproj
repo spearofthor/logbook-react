@@ -26,7 +26,7 @@
           <SSIS:Property SSIS:Name="CreatorComputerName">ATH021466</SSIS:Property>
           <SSIS:Property SSIS:Name="Description">
           </SSIS:Property>
-          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAZ85k9L7ETUm6gj0T1r0qWwAAAAACAAAAAAADZgAAwAAAABAAAACuBtOThxQLkhIzLVnPuxSxAAAAAASAAACgAAAAEAAAAGP+D7CyzpvFVuRfwqPKR4eIAAAAIXlhcjtT9YtWgmIY7TXRR395iZDDhSUMxV4CDRx2DuIpepDtAXCGcdQoKWUQhSABWKEX3YL9jRvK/hi/eONym1yFZxR/u7PmNUKYeuWjnMVPxxp3WRhqPKh4z6+xIrOVyV5F3nbVuK0Ro81cXoxhWNSFts1RvqbOtwebv7RqogwM12gwowqqQRQAAAB7zFY80/uIhhJ9CyjObq0Iy8gXdw==</SSIS:Property>
+          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAZ85k9L7ETUm6gj0T1r0qWwAAAAACAAAAAAADZgAAwAAAABAAAADyUXf8ZnOlR6F04A6R1XmaAAAAAASAAACgAAAAEAAAANzmol44Lp7pLQzEuBTc3/OIAAAAawJ4BdqcNefDoIra9SX8rYcDDgWN4RpfgWuAj4fiuwvr6o5idtA1Qc1KkzV5phN7/3KfqyyoNOPl1p1mSZW5BreEbJM5Cdrt83BIvAtCHWdyd/uJnz8sQ4WXX14c/bNBVpfIVW3CYave59CW37IyEJIaqiAGn4XFpRZEfNPTq/UrGRO53EJvqhQAAADmzFYwCbfPP33Gxo+x/biOMfZJ0Q==</SSIS:Property>
           <SSIS:Property SSIS:Name="FormatVersion">1</SSIS:Property>
         </SSIS:Properties>
         <SSIS:Packages>
@@ -42,10 +42,10 @@
                 <SSIS:Property SSIS:Name="Name">ForeFlight</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMajor">1</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMinor">0</SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionBuild">45</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionBuild">48</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionComments">
                 </SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionGUID">{0982D9D2-8FD9-4125-91BA-F698DCBD7355}</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionGUID">{3AB2ADEA-C61B-4CA6-957D-1939E570AFE4}</SSIS:Property>
                 <SSIS:Property SSIS:Name="PackageFormatVersion">8</SSIS:Property>
                 <SSIS:Property SSIS:Name="Description">
                 </SSIS:Property>
@@ -243,7 +243,7 @@
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
-                <SSIS:Parameter SSIS:Name="CM.Foreflight-Aircraft-ExportFile.AlwaysCheckForRowDelimiters">
+                <SSIS:Parameter SSIS:Name="CM.Foreflight-Aircraft-Entries.AlwaysCheckForRowDelimiters">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -258,7 +258,7 @@
                     <SSIS:Property SSIS:Name="DataType">3</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
-                <SSIS:Parameter SSIS:Name="CM.Foreflight-Aircraft-ExportFile.CodePage">
+                <SSIS:Parameter SSIS:Name="CM.Foreflight-Aircraft-Entries.CodePage">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -273,7 +273,7 @@
                     <SSIS:Property SSIS:Name="DataType">9</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
-                <SSIS:Parameter SSIS:Name="CM.Foreflight-Aircraft-ExportFile.ColumnNamesInFirstDataRow">
+                <SSIS:Parameter SSIS:Name="CM.Foreflight-Aircraft-Entries.ColumnNamesInFirstDataRow">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -288,7 +288,7 @@
                     <SSIS:Property SSIS:Name="DataType">3</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
-                <SSIS:Parameter SSIS:Name="CM.Foreflight-Aircraft-ExportFile.ConnectionString">
+                <SSIS:Parameter SSIS:Name="CM.Foreflight-Aircraft-Entries.ConnectionString">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -303,7 +303,7 @@
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
-                <SSIS:Parameter SSIS:Name="CM.Foreflight-Aircraft-ExportFile.DataRowsToSkip">
+                <SSIS:Parameter SSIS:Name="CM.Foreflight-Aircraft-Entries.DataRowsToSkip">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -318,7 +318,7 @@
                     <SSIS:Property SSIS:Name="DataType">9</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
-                <SSIS:Parameter SSIS:Name="CM.Foreflight-Aircraft-ExportFile.Format">
+                <SSIS:Parameter SSIS:Name="CM.Foreflight-Aircraft-Entries.Format">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -333,7 +333,7 @@
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
-                <SSIS:Parameter SSIS:Name="CM.Foreflight-Aircraft-ExportFile.HeaderRowDelimiter">
+                <SSIS:Parameter SSIS:Name="CM.Foreflight-Aircraft-Entries.HeaderRowDelimiter">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -349,7 +349,7 @@
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
-                <SSIS:Parameter SSIS:Name="CM.Foreflight-Aircraft-ExportFile.HeaderRowsToSkip">
+                <SSIS:Parameter SSIS:Name="CM.Foreflight-Aircraft-Entries.HeaderRowsToSkip">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -364,7 +364,7 @@
                     <SSIS:Property SSIS:Name="DataType">9</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
-                <SSIS:Parameter SSIS:Name="CM.Foreflight-Aircraft-ExportFile.LocaleID">
+                <SSIS:Parameter SSIS:Name="CM.Foreflight-Aircraft-Entries.LocaleID">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -379,7 +379,7 @@
                     <SSIS:Property SSIS:Name="DataType">9</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
-                <SSIS:Parameter SSIS:Name="CM.Foreflight-Aircraft-ExportFile.RowDelimiter">
+                <SSIS:Parameter SSIS:Name="CM.Foreflight-Aircraft-Entries.RowDelimiter">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -395,7 +395,7 @@
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
-                <SSIS:Parameter SSIS:Name="CM.Foreflight-Aircraft-ExportFile.TextQualifier">
+                <SSIS:Parameter SSIS:Name="CM.Foreflight-Aircraft-Entries.TextQualifier">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -410,7 +410,7 @@
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
-                <SSIS:Parameter SSIS:Name="CM.Foreflight-Aircraft-ExportFile.Unicode">
+                <SSIS:Parameter SSIS:Name="CM.Foreflight-Aircraft-Entries.Unicode">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -425,7 +425,7 @@
                     <SSIS:Property SSIS:Name="DataType">3</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
-                <SSIS:Parameter SSIS:Name="CM.Foreflight-Flights-ExporrtFile.AlwaysCheckForRowDelimiters">
+                <SSIS:Parameter SSIS:Name="CM.Foreflight-Log-Entries.AlwaysCheckForRowDelimiters">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -440,7 +440,7 @@
                     <SSIS:Property SSIS:Name="DataType">3</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
-                <SSIS:Parameter SSIS:Name="CM.Foreflight-Flights-ExporrtFile.CodePage">
+                <SSIS:Parameter SSIS:Name="CM.Foreflight-Log-Entries.CodePage">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -455,7 +455,7 @@
                     <SSIS:Property SSIS:Name="DataType">9</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
-                <SSIS:Parameter SSIS:Name="CM.Foreflight-Flights-ExporrtFile.ColumnNamesInFirstDataRow">
+                <SSIS:Parameter SSIS:Name="CM.Foreflight-Log-Entries.ColumnNamesInFirstDataRow">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -470,7 +470,7 @@
                     <SSIS:Property SSIS:Name="DataType">3</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
-                <SSIS:Parameter SSIS:Name="CM.Foreflight-Flights-ExporrtFile.ConnectionString">
+                <SSIS:Parameter SSIS:Name="CM.Foreflight-Log-Entries.ConnectionString">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -485,7 +485,7 @@
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
-                <SSIS:Parameter SSIS:Name="CM.Foreflight-Flights-ExporrtFile.DataRowsToSkip">
+                <SSIS:Parameter SSIS:Name="CM.Foreflight-Log-Entries.DataRowsToSkip">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -500,7 +500,7 @@
                     <SSIS:Property SSIS:Name="DataType">9</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
-                <SSIS:Parameter SSIS:Name="CM.Foreflight-Flights-ExporrtFile.Format">
+                <SSIS:Parameter SSIS:Name="CM.Foreflight-Log-Entries.Format">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -515,7 +515,7 @@
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
-                <SSIS:Parameter SSIS:Name="CM.Foreflight-Flights-ExporrtFile.HeaderRowDelimiter">
+                <SSIS:Parameter SSIS:Name="CM.Foreflight-Log-Entries.HeaderRowDelimiter">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -531,7 +531,7 @@
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
-                <SSIS:Parameter SSIS:Name="CM.Foreflight-Flights-ExporrtFile.HeaderRowsToSkip">
+                <SSIS:Parameter SSIS:Name="CM.Foreflight-Log-Entries.HeaderRowsToSkip">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -546,7 +546,7 @@
                     <SSIS:Property SSIS:Name="DataType">9</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
-                <SSIS:Parameter SSIS:Name="CM.Foreflight-Flights-ExporrtFile.LocaleID">
+                <SSIS:Parameter SSIS:Name="CM.Foreflight-Log-Entries.LocaleID">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -561,7 +561,7 @@
                     <SSIS:Property SSIS:Name="DataType">9</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
-                <SSIS:Parameter SSIS:Name="CM.Foreflight-Flights-ExporrtFile.RowDelimiter">
+                <SSIS:Parameter SSIS:Name="CM.Foreflight-Log-Entries.RowDelimiter">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -577,7 +577,7 @@
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
-                <SSIS:Parameter SSIS:Name="CM.Foreflight-Flights-ExporrtFile.TextQualifier">
+                <SSIS:Parameter SSIS:Name="CM.Foreflight-Log-Entries.TextQualifier">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -592,7 +592,7 @@
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
-                <SSIS:Parameter SSIS:Name="CM.Foreflight-Flights-ExporrtFile.Unicode">
+                <SSIS:Parameter SSIS:Name="CM.Foreflight-Log-Entries.Unicode">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -607,7 +607,7 @@
                     <SSIS:Property SSIS:Name="DataType">3</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
-                <SSIS:Parameter SSIS:Name="CM.Garmin-Flights-ImportFile.AlwaysCheckForRowDelimiters">
+                <SSIS:Parameter SSIS:Name="CM.Garmin-Log-Entries.AlwaysCheckForRowDelimiters">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -622,7 +622,7 @@
                     <SSIS:Property SSIS:Name="DataType">3</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
-                <SSIS:Parameter SSIS:Name="CM.Garmin-Flights-ImportFile.CodePage">
+                <SSIS:Parameter SSIS:Name="CM.Garmin-Log-Entries.CodePage">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -637,7 +637,7 @@
                     <SSIS:Property SSIS:Name="DataType">9</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
-                <SSIS:Parameter SSIS:Name="CM.Garmin-Flights-ImportFile.ColumnNamesInFirstDataRow">
+                <SSIS:Parameter SSIS:Name="CM.Garmin-Log-Entries.ColumnNamesInFirstDataRow">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -652,7 +652,7 @@
                     <SSIS:Property SSIS:Name="DataType">3</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
-                <SSIS:Parameter SSIS:Name="CM.Garmin-Flights-ImportFile.ConnectionString">
+                <SSIS:Parameter SSIS:Name="CM.Garmin-Log-Entries.ConnectionString">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -663,11 +663,11 @@
                     <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
-                    <SSIS:Property SSIS:Name="Value">C:\Users\storgerson\Documents\GitHub\logbook-react\data\garmin-templates\Log_Entries_Exported.csv</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Value">C:\Users\storgerson\Documents\GitHub\logbook-react\data\Garmin-Log-Entries.csv</SSIS:Property>
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
-                <SSIS:Parameter SSIS:Name="CM.Garmin-Flights-ImportFile.DataRowsToSkip">
+                <SSIS:Parameter SSIS:Name="CM.Garmin-Log-Entries.DataRowsToSkip">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -682,7 +682,7 @@
                     <SSIS:Property SSIS:Name="DataType">9</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
-                <SSIS:Parameter SSIS:Name="CM.Garmin-Flights-ImportFile.Format">
+                <SSIS:Parameter SSIS:Name="CM.Garmin-Log-Entries.Format">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -697,7 +697,7 @@
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
-                <SSIS:Parameter SSIS:Name="CM.Garmin-Flights-ImportFile.HeaderRowDelimiter">
+                <SSIS:Parameter SSIS:Name="CM.Garmin-Log-Entries.HeaderRowDelimiter">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -713,7 +713,7 @@
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
-                <SSIS:Parameter SSIS:Name="CM.Garmin-Flights-ImportFile.HeaderRowsToSkip">
+                <SSIS:Parameter SSIS:Name="CM.Garmin-Log-Entries.HeaderRowsToSkip">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -728,7 +728,7 @@
                     <SSIS:Property SSIS:Name="DataType">9</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
-                <SSIS:Parameter SSIS:Name="CM.Garmin-Flights-ImportFile.LocaleID">
+                <SSIS:Parameter SSIS:Name="CM.Garmin-Log-Entries.LocaleID">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -743,7 +743,7 @@
                     <SSIS:Property SSIS:Name="DataType">9</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
-                <SSIS:Parameter SSIS:Name="CM.Garmin-Flights-ImportFile.RowDelimiter">
+                <SSIS:Parameter SSIS:Name="CM.Garmin-Log-Entries.RowDelimiter">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -759,7 +759,7 @@
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
-                <SSIS:Parameter SSIS:Name="CM.Garmin-Flights-ImportFile.TextQualifier">
+                <SSIS:Parameter SSIS:Name="CM.Garmin-Log-Entries.TextQualifier">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -774,7 +774,7 @@
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
-                <SSIS:Parameter SSIS:Name="CM.Garmin-Flights-ImportFile.Unicode">
+                <SSIS:Parameter SSIS:Name="CM.Garmin-Log-Entries.Unicode">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
